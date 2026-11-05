@@ -2,6 +2,8 @@
 
 Web học tập song ngữ dành cho trẻ nhỏ, chạy hoàn toàn cục bộ và không cần cài đặt.
 
+**Bản đang chạy:** https://brotherscreateapplication.github.io/kids-learning/
+
 ## Cách mở
 
 - Cách nhanh nhất: mở `index.html` bằng Chrome hoặc Edge.
@@ -35,4 +37,4 @@ Web hỗ trợ PWA và có thể cài trên iPhone, iPad hoặc Android:
 - iPhone/iPad: mở bằng Safari, nhấn **Chia sẻ** → **Thêm vào Màn hình chính**.
 - Android/Chrome: mở menu ⋮ → **Cài đặt ứng dụng**.
 
-PWA cần được mở qua HTTPS. GitHub Pages của repository này đáp ứng yêu cầu đó.
+PWA được phát hành qua HTTPS tại địa chỉ trên.
