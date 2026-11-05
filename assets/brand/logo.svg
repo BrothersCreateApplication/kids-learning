@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e5f7ed"/>
+      <stop offset="1" stop-color="#ffe6a3"/>
+    </linearGradient>
+    <linearGradient id="owl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc45c"/>
+      <stop offset="1" stop-color="#f39a39"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <circle cx="512" cy="532" r="390" fill="#fff9e9" opacity=".94"/>
+  <circle cx="155" cy="825" r="145" fill="#fff" opacity=".38"/>
+  <circle cx="910" cy="150" r="108" fill="#fff" opacity=".34"/>
+  <path d="m174 207 22-34 20 42 46 13-38 25 16 47-39-22-36 31 1-50-43-20 51-13Z" fill="#f4c544"/>
+  <circle cx="836" cy="790" r="22" fill="#f4a4a6"/>
+  <circle cx="732" cy="190" r="14" fill="#7eb9a0"/>
+  <path d="M295 330 372 188l82 111M729 330 652 188l-82 111" fill="url(#owl)"/>
+  <path d="M244 512c0-192 108-333 268-333s268 141 268 333v170c0 103-75 178-178 178H422c-103 0-178-75-178-178V512Z" fill="url(#owl)"/>
+  <path d="M349 530c0-93 66-166 163-166s163 73 163 166v89c0 91-67 162-163 162s-163-71-163-162v-89Z" fill="#fff5d7"/>
+  <circle cx="405" cy="452" r="103" fill="#fffdf7"/>
+  <circle cx="619" cy="452" r="103" fill="#fffdf7"/>
+  <circle cx="421" cy="465" r="45" fill="#334151"/>
+  <circle cx="603" cy="465" r="45" fill="#334151"/>
+  <circle cx="437" cy="449" r="13" fill="#fff"/>
+  <circle cx="619" cy="449" r="13" fill="#fff"/>
+  <path d="m512 505-45 58h90l-45-58Z" fill="#f28b35"/>
+  <path d="M405 682c30-35 68-35 107 0 39-35 77-35 107 0-29 51-68 78-107 78s-78-27-107-78Z" fill="#f8a73b"/>
+  <path d="M284 640c-81 3-129 41-145 111 57 5 106-12 150-49M740 640c81 3 129 41 145 111-57 5-106-12-150-49" fill="none" stroke="#f4a03d" stroke-linecap="round" stroke-width="42"/>
+  <path d="M426 850v34M598 850v34" stroke="#ef9637" stroke-linecap="round" stroke-width="25"/>
+  <path d="m818 367 20-33 18 37 43 12-35 23 15 43-36-20-33 28 1-46-40-18 47-12Z" fill="#f7c947"/>
+</svg>

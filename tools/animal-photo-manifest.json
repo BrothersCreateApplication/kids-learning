@@ -1,0 +1,932 @@
+{
+  "dog": {
+    "file": "assets/animal-photos/dog-goldenretrieverdukedestiny01drvd.webp",
+    "title": "Golden Retriever",
+    "source_file": "Golden_Retriever_Dukedestiny01_drvd.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_Retriever_Dukedestiny01_drvd.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_Retriever_Dukedestiny01_drvd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Dukedestiny01.jpg: \"Janneke Vreugdenhil\"\nderivative work: Anka Friedrich ([[User talk:Ankaaswe\nTrix Friedrich|talk]])",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "duck": {
+    "file": "assets/animal-photos/duck.webp",
+    "title": "Duck",
+    "source_file": "Bucephala-albeola-010.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bucephala-albeola-010.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Bucephala-albeola-010.jpg/960px-Bucephala-albeola-010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Mdf",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "bear": {
+    "file": "assets/animal-photos/bear.webp",
+    "title": "Brown bear",
+    "source_file": "2010-kodiak-bear-1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2010-kodiak-bear-1.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/960px-2010-kodiak-bear-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Yathin S Krishnappa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "hedgehog": {
+    "file": "assets/animal-photos/hedgehog.webp",
+    "title": "Hedgehog",
+    "source_file": "Igel.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Igel.JPG",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Igel.JPG/960px-Igel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Gibe",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "bat": {
+    "file": "assets/animal-photos/bat.webp",
+    "title": "Bat",
+    "source_file": "Big-eared-townsend-fledermaus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Big-eared-townsend-fledermaus.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Big-eared-townsend-fledermaus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "PD-USGov, exact author unknown",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "squirrel": {
+    "file": "assets/animal-photos/squirrel-eastern-gray-squirrel.webp",
+    "title": "Eastern gray squirrel",
+    "source_file": "EasternGraySquirrel_GAm.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:EasternGraySquirrel_GAm.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/EasternGraySquirrel_GAm.jpg/960px-EasternGraySquirrel_GAm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "JeffreyGammon",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "octopus": {
+    "file": "assets/animal-photos/octopus.webp",
+    "title": "Octopus",
+    "source_file": "Octopus2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/960px-Octopus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "albert kok",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "lobster": {
+    "file": "assets/animal-photos/lobster.webp",
+    "title": "Lobster",
+    "source_file": "KreeftbijDenOsse.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:KreeftbijDenOsse.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/KreeftbijDenOsse.jpg/960px-KreeftbijDenOsse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Bart Braun",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "pufferfish": {
+    "file": "assets/animal-photos/pufferfish.webp",
+    "title": "Tetraodontidae",
+    "source_file": "Tetraodon-hispidus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tetraodon-hispidus.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Tetraodon-hispidus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "National Oceanic and Atmospheric Administration",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "seal": {
+    "file": "assets/animal-photos/seal.webp",
+    "title": "Earless seal",
+    "source_file": "Seehund.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Seehund.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Seehund.jpg/960px-Seehund.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Marcel Burkhard",
+    "license": "CC BY-SA 2.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+  },
+  "ladybug": {
+    "file": "assets/animal-photos/ladybug.webp",
+    "title": "Coccinellidae",
+    "source_file": "Coccinella-septempunctata-15-fws.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Coccinella-septempunctata-15-fws.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Coccinella-septempunctata-15-fws.jpg/960px-Coccinella-septempunctata-15-fws.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Francisco Welter-Schultes",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "snail": {
+    "file": "assets/animal-photos/snail.webp",
+    "title": "Snail",
+    "source_file": "Snail.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Snail.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Snail.jpg/960px-Snail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Geierunited",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "cat": {
+    "file": "assets/animal-photos/cat-mleblacksilverblotchedtabby.webp",
+    "title": "Maine Coon",
+    "source_file": "Mâle_Black_Silver_Blotched_Tabby.jpeg",
+    "source": "https://commons.wikimedia.org/wiki/File:M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "rabbit": {
+    "file": "assets/animal-photos/rabbit.webp",
+    "title": "Rabbit",
+    "source_file": "Oryctolagus_cuniculus_Rcdo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Oryctolagus_cuniculus_Rcdo.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/960px-Oryctolagus_cuniculus_Rcdo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "JM Ligero Loarte",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "hamster": {
+    "file": "assets/animal-photos/hamster.webp",
+    "title": "Golden hamster",
+    "source_file": "Golden_hamster_front_1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_hamster_front_1.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Golden_hamster_front_1.jpg/960px-Golden_hamster_front_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Adamjennison111 at English Wikipedia",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5"
+  },
+  "mouse": {
+    "file": "assets/animal-photos/mouse.webp",
+    "title": "House mouse",
+    "source_file": "Mouse_white_background.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mouse_white_background.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mouse_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Unknown authorUnknown author (original) / Ilmari Karonen (editing)",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "turtle": {
+    "file": "assets/animal-photos/turtle-red-eared-slider.webp",
+    "title": "Red-eared slider",
+    "source_file": "RedEaredSlider05.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:RedEaredSlider05.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/RedEaredSlider05.jpg/960px-RedEaredSlider05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Greg Hume",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "parrot": {
+    "file": "assets/animal-photos/parrot.webp",
+    "title": "Parrot",
+    "source_file": "Rainbow_lorikeet_(Trichoglossus_moluccanus_moluccanus)_Sydney.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rainbow_lorikeet_(Trichoglossus_moluccanus_moluccanus)_Sydney.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg/960px-Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "goldfish": {
+    "file": "assets/animal-photos/goldfish.webp",
+    "title": "Goldfish",
+    "source_file": "Gold_fish1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gold_fish1.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Gold_fish1.jpg/960px-Gold_fish1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "לינה אבוגוש",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "cow": {
+    "file": "assets/animal-photos/cow.webp",
+    "title": "Cattle",
+    "source_file": "Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/960px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Kim Hansen",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "pig": {
+    "file": "assets/animal-photos/pig.webp",
+    "title": "Pig",
+    "source_file": "Pig_farm_Vampula_1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pig_farm_Vampula_1.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/960px-Pig_farm_Vampula_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sheep": {
+    "file": "assets/animal-photos/sheep.webp",
+    "title": "Sheep",
+    "source_file": "Flock_of_sheep.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Flock_of_sheep.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Flock_of_sheep.jpg/960px-Flock_of_sheep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Keith Weller",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "goat": {
+    "file": "assets/animal-photos/goat.webp",
+    "title": "Goat",
+    "source_file": "Hausziege_04.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hausziege_04.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/960px-Hausziege_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Kuebi = Armin Kübelbeck",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "horse": {
+    "file": "assets/animal-photos/horse.webp",
+    "title": "Horse",
+    "source_file": "Nokota_Horses_cropped.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nokota_Horses_cropped.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Nokota_Horses_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Nokota_Horses.jpg: François Marchal\nderivative work: Dana boomer (talk)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "donkey": {
+    "file": "assets/animal-photos/donkey.webp",
+    "title": "Donkey",
+    "source_file": "Donkey_in_Clovelly,_North_Devon,_England.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Donkey_in_Clovelly,_North_Devon,_England.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Donkey_in_Clovelly%2C_North_Devon%2C_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Adrian Pingstone",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "llama": {
+    "file": "assets/animal-photos/llama.webp",
+    "title": "Llama",
+    "source_file": "Llamas,_Vernagt-Stausee,_Italy.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Llamas,_Vernagt-Stausee,_Italy.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Llamas%2C_Vernagt-Stausee%2C_Italy.jpg/960px-Llamas%2C_Vernagt-Stausee%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Andrija12345678",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "chicken": {
+    "file": "assets/animal-photos/chicken.webp",
+    "title": "Chicken",
+    "source_file": "Male_and_female_chicken_sitting_together.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_and_female_chicken_sitting_together.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Male_and_female_chicken_sitting_together.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Andrei Niemimäki from Turku, Finland",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "goose": {
+    "file": "assets/animal-photos/goose.webp",
+    "title": "Goose",
+    "source_file": "Anser_anser_1_(Piotr_Kuczynski)_(cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Anser_anser_1_(Piotr_Kuczynski)_(cropped).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Anser_anser_1_%28Piotr_Kuczynski%29_%28cropped%29.jpg/960px-Anser_anser_1_%28Piotr_Kuczynski%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Piotr Kuczynski",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "lion": {
+    "file": "assets/animal-photos/lion.webp",
+    "title": "Lion",
+    "source_file": "020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/960px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "tiger": {
+    "file": "assets/animal-photos/tiger.webp",
+    "title": "Tiger",
+    "source_file": "Bengal_tiger_(Panthera_tigris_tigris)_female_3_crop.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3_crop.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg/960px-Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "elephant": {
+    "file": "assets/animal-photos/elephant.webp",
+    "title": "Elephant",
+    "source_file": "African_Bush_Elephant.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:African_Bush_Elephant.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/960px-African_Bush_Elephant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Muhammad Mahdi Karim Facebook\n\n\n\n\n\nThe making of this document was supported by Wikimedia CH. (Submit your project!)\nFor all the files concerned, please see the category Supported by Wikimedia CH.\n\n\nالعربية ∙ বাংলা ∙ čeština ∙ Deutsch ∙ English ∙ Esperanto ∙ español ∙ français ∙ galego ∙ हिन्दी ∙ magyar ∙ italiano ∙ 日本語 ∙ македонски ∙ Nederlands ∙ português do Brasil ∙ rumantsch ∙ русский ∙ sicilianu ∙ slovenščina ∙ தமிழ் ∙ українська ∙ 中文 ∙ +/−",
+    "license": "GFDL 1.2",
+    "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+  },
+  "giraffe": {
+    "file": "assets/animal-photos/giraffe.webp",
+    "title": "Giraffe",
+    "source_file": "Giraffe_Mikumi_National_Park.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Giraffe_Mikumi_National_Park.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/960px-Giraffe_Mikumi_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Muhammad Mahdi Karim Facebook\n\n\n\n\n\nThe making of this document was supported by Wikimedia CH. (Submit your project!)\nFor all the files concerned, please see the category Supported by Wikimedia CH.\n\n\nالعربية ∙ বাংলা ∙ čeština ∙ Deutsch ∙ English ∙ Esperanto ∙ español ∙ français ∙ galego ∙ हिन्दी ∙ magyar ∙ italiano ∙ 日本語 ∙ македонски ∙ Nederlands ∙ português do Brasil ∙ rumantsch ∙ русский ∙ sicilianu ∙ slovenščina ∙ தமிழ் ∙ українська ∙ 中文 ∙ +/−",
+    "license": "GFDL 1.2",
+    "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+  },
+  "zebra": {
+    "file": "assets/animal-photos/zebra.webp",
+    "title": "Zebra",
+    "source_file": "Plains_Zebra_Equus_quagga_cropped.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Plains_Zebra_Equus_quagga_cropped.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Plains_Zebra_Equus_quagga_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Muhammad Mahdi Karim",
+    "license": "GFDL 1.2",
+    "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+  },
+  "monkey": {
+    "file": "assets/animal-photos/monkey.webp",
+    "title": "Monkey",
+    "source_file": "Ubud_Monkey_Family.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ubud_Monkey_Family.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ubud_Monkey_Family.jpg/960px-Ubud_Monkey_Family.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Deerpeter",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "gorilla": {
+    "file": "assets/animal-photos/gorilla.webp",
+    "title": "Gorilla",
+    "source_file": "Gorille_des_plaines_de_l'ouest_à_l'Espace_Zoologique.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg/960px-Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Thurundir",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "fox": {
+    "file": "assets/animal-photos/fox.webp",
+    "title": "Red fox",
+    "source_file": "Portrait_of_a_red_fox_in_Rautas_fjällurskog_(cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_(cropped).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg/960px-Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "ClaudiaTen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "wolf": {
+    "file": "assets/animal-photos/wolf.webp",
+    "title": "Wolf",
+    "source_file": "Eurasian_wolf_2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Eurasian_wolf_2.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/960px-Eurasian_wolf_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "User:Mas3cf",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "polar-bear": {
+    "file": "assets/animal-photos/polar-bear.webp",
+    "title": "Polar bear",
+    "source_file": "Polar_Bear_-_Alaska_(cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska_(cropped).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Alan Wilson",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "panda": {
+    "file": "assets/animal-photos/panda.webp",
+    "title": "Giant panda",
+    "source_file": "Grosser_Panda.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Grosser_Panda.JPG",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/960px-Grosser_Panda.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "J. Patrick Fischer",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "koala": {
+    "file": "assets/animal-photos/koala.webp",
+    "title": "Koala",
+    "source_file": "Koala_climbing_tree.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/960px-Koala_climbing_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "kangaroo": {
+    "file": "assets/animal-photos/kangaroo.webp",
+    "title": "Kangaroo",
+    "source_file": "Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_juvenile_hopping_Esk_Valley.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_juvenile_hopping_Esk_Valley.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Forester_kangaroo_%28Macropus_giganteus_tasmaniensis%29_juvenile_hopping_Esk_Valley.jpg/960px-Forester_kangaroo_%28Macropus_giganteus_tasmaniensis%29_juvenile_hopping_Esk_Valley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "deer": {
+    "file": "assets/animal-photos/deer-white-tailed-deer.webp",
+    "title": "White-tailed deer",
+    "source_file": "White-tailed_deer.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:White-tailed_deer.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/White-tailed_deer.jpg/960px-White-tailed_deer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "USDA photo by Scott Bauer",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "moose": {
+    "file": "assets/animal-photos/moose.webp",
+    "title": "Moose",
+    "source_file": "Alaska_moose.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Alaska_moose.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Alaska_moose.jpg/960px-Alaska_moose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Paxson Woelber",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "hippo": {
+    "file": "assets/animal-photos/hippo.webp",
+    "title": "Hippopotamus",
+    "source_file": "Portrait_Hippopotamus_in_the_water.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_Hippopotamus_in_the_water.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Portrait_Hippopotamus_in_the_water.jpg/960px-Portrait_Hippopotamus_in_the_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Muhammad Mahdi Karim",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "rhino": {
+    "file": "assets/animal-photos/rhino.webp",
+    "title": "Rhinoceros",
+    "source_file": "081_White_rhinoceros_(male)_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:081_White_rhinoceros_(male)_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/081_White_rhinoceros_%28male%29_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg/960px-081_White_rhinoceros_%28male%29_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "leopard": {
+    "file": "assets/animal-photos/leopard.webp",
+    "title": "Leopard",
+    "source_file": "African_leopard_male_(cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:African_leopard_male_(cropped).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/African_leopard_male_%28cropped%29.jpg/960px-African_leopard_male_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Sumeet Moghe",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "camel": {
+    "file": "assets/animal-photos/camel.webp",
+    "title": "Camel",
+    "source_file": "07._Camel_Profile,_near_Silverton,_NSW,_07.07.2007.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:07._Camel_Profile,_near_Silverton,_NSW,_07.07.2007.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg/960px-07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Jjron",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "sloth": {
+    "file": "assets/animal-photos/sloth.webp",
+    "title": "Sloth",
+    "source_file": "Bicho-preguiça_3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bicho-pregui%C3%A7a_3.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Bicho-pregui%C3%A7a_3.jpg/960px-Bicho-pregui%C3%A7a_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Daniella Maraschiello",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "badger": {
+    "file": "assets/animal-photos/badger.webp",
+    "title": "European badger",
+    "source_file": "European_badger_(Meles_meles_taxus)_Drenthe.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:European_badger_(Meles_meles_taxus)_Drenthe.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/European_badger_%28Meles_meles_taxus%29_Drenthe.jpg/960px-European_badger_%28Meles_meles_taxus%29_Drenthe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "otter": {
+    "file": "assets/animal-photos/otter.webp",
+    "title": "Eurasian otter",
+    "source_file": "Fischotter,_Lutra_Lutra.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Fischotter,_Lutra_Lutra.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Fischotter%2C_Lutra_Lutra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Bernard Landgraf",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "beaver": {
+    "file": "assets/animal-photos/beaver.webp",
+    "title": "North American beaver",
+    "source_file": "American_Beaver.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Beaver.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/American_Beaver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Steve from Washington, DC, USA",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "skunk": {
+    "file": "assets/animal-photos/skunk.webp",
+    "title": "Skunk",
+    "source_file": "Striped_Skunk.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Striped_Skunk.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Striped_Skunk.jpg/960px-Striped_Skunk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "http://www.birdphotos.com",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "raccoon": {
+    "file": "assets/animal-photos/raccoon.webp",
+    "title": "Raccoon",
+    "source_file": "Raccoon_in_Central_Park_(35264).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Raccoon_in_Central_Park_(35264).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Raccoon_in_Central_Park_%2835264%29.jpg/960px-Raccoon_in_Central_Park_%2835264%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "bison": {
+    "file": "assets/animal-photos/bison.webp",
+    "title": "American bison",
+    "source_file": "American_bison_k5680-1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/American_bison_k5680-1.jpg/960px-American_bison_k5680-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Jack Dykinga",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "mammoth": {
+    "file": "assets/animal-photos/mammoth-202003-woolly-mammoth.webp",
+    "title": "Woolly mammoth",
+    "source_file": "202003 Woolly mammoth.png",
+    "source": "https://commons.wikimedia.org/wiki/File:202003_Woolly_mammoth.png",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/202003_Woolly_mammoth.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "DataBase Center for Life Science (DBCLS)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "snake": {
+    "file": "assets/animal-photos/snake.webp",
+    "title": "Snake",
+    "source_file": "Trimeresurus_sabahi_fucatus,_Banded_pit_viper_-_Takua_Pa_District,_Phang-nga_Province_(46710893582).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Trimeresurus_sabahi_fucatus,_Banded_pit_viper_-_Takua_Pa_District,_Phang-nga_Province_(46710893582).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Trimeresurus_sabahi_fucatus%2C_Banded_pit_viper_-_Takua_Pa_District%2C_Phang-nga_Province_%2846710893582%29.jpg/960px-Trimeresurus_sabahi_fucatus%2C_Banded_pit_viper_-_Takua_Pa_District%2C_Phang-nga_Province_%2846710893582%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Rushenb",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "lizard": {
+    "file": "assets/animal-photos/lizard.webp",
+    "title": "Lizard",
+    "source_file": "Hemidactylus_platyurus_(Flat-tailed_House_Gecko)_on_white_background,_focus_stacking.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hemidactylus_platyurus_(Flat-tailed_House_Gecko)_on_white_background,_focus_stacking.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Hemidactylus_platyurus_%28Flat-tailed_House_Gecko%29_on_white_background%2C_focus_stacking.jpg/960px-Hemidactylus_platyurus_%28Flat-tailed_House_Gecko%29_on_white_background%2C_focus_stacking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "frog": {
+    "file": "assets/animal-photos/frog.webp",
+    "title": "Frog",
+    "source_file": "Red-eyed_Leaf_Frog_(49661076226).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Red-eyed_Leaf_Frog_(49661076226).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Red-eyed_Leaf_Frog_%2849661076226%29.jpg/960px-Red-eyed_Leaf_Frog_%2849661076226%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Charlie Jackson",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "eagle": {
+    "file": "assets/animal-photos/eagle.webp",
+    "title": "Bald eagle",
+    "source_file": "Bald_eagle_about_to_fly_in_Alaska_(2016).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bald_eagle_about_to_fly_in_Alaska_(2016).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg/960px-Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Andy Morffew from Itchen Abbas, Hampshire, UK",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "owl": {
+    "file": "assets/animal-photos/owl.webp",
+    "title": "Owl",
+    "source_file": "Bubo_bubo_sibiricus_-_01.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Bubo_bubo_sibiricus_-_01.JPG",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Bubo_bubo_sibiricus_-_01.JPG/960px-Bubo_bubo_sibiricus_-_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Carlos Delgado",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "peacock": {
+    "file": "assets/animal-photos/peacock-indian-peafowl.webp",
+    "title": "Indian peafowl",
+    "source_file": "Peacock_on_tree_(52077240794).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Peacock_on_tree_(52077240794).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/960px-Peacock_on_tree_%2852077240794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Kandukuru Nagarjun from Bangalore, India",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "flamingo": {
+    "file": "assets/animal-photos/flamingo.webp",
+    "title": "Flamingo",
+    "source_file": "Flamingos_Laguna_Colorada.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Flamingos_Laguna_Colorada.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Flamingos_Laguna_Colorada.jpg/960px-Flamingos_Laguna_Colorada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Valdiney Pimenta",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "penguin": {
+    "file": "assets/animal-photos/penguin.webp",
+    "title": "Penguin",
+    "source_file": "South_Shetland-2016-Deception_Island–Chinstrap_penguin_(Pygoscelis_antarctica)_04.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_(Pygoscelis_antarctica)_04.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg/960px-South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "swan": {
+    "file": "assets/animal-photos/swan.webp",
+    "title": "Swan",
+    "source_file": "Mute_Swan_Emsworth2.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Mute_Swan_Emsworth2.JPG",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Mute_Swan_Emsworth2.JPG/960px-Mute_Swan_Emsworth2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Geni",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "dove": {
+    "file": "assets/animal-photos/dove.webp",
+    "title": "Columbidae",
+    "source_file": "Treron_vernans_male_-_Kent_Ridge_Park.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Treron_vernans_male_-_Kent_Ridge_Park.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Treron_vernans_male_-_Kent_Ridge_Park.jpg/960px-Treron_vernans_male_-_Kent_Ridge_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "JJ Harrison (https://tiny.jjharrison.com.au/t/3rUZckpXLJTJuAko)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "turkey": {
+    "file": "assets/animal-photos/turkey.webp",
+    "title": "Domestic turkey",
+    "source_file": "Male_north_american_turkey_supersaturated.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_north_american_turkey_supersaturated.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Male_north_american_turkey_supersaturated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "photo taken by Lupin on en:Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "dodo": {
+    "file": "assets/animal-photos/dodo.webp",
+    "title": "Dodo",
+    "source_file": "Oxford_Dodo_display.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Oxford_Dodo_display.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Oxford_Dodo_display.jpg/960px-Oxford_Dodo_display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "BazzaDaRambler",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "bird": {
+    "file": "assets/animal-photos/bird.webp",
+    "title": "Bird",
+    "source_file": "Kleiber_Flug.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kleiber_Flug.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kleiber_Flug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "C. Robiller / naturlichter.de (Hyla meridionalis)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "whale": {
+    "file": "assets/animal-photos/whale.webp",
+    "title": "Whale",
+    "source_file": "Southern_right_whale.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Southern_right_whale.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Southern_right_whale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Michaël CATANZARITI",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "dolphin": {
+    "file": "assets/animal-photos/dolphin.webp",
+    "title": "Dolphin",
+    "source_file": "Tursiops_truncatus_01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/960px-Tursiops_truncatus_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "NASA",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "shark": {
+    "file": "assets/animal-photos/shark.webp",
+    "title": "Shark",
+    "source_file": "Corl0207_(28225976491).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Corl0207_(28225976491).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Corl0207_%2828225976491%29.jpg/960px-Corl0207_%2828225976491%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "NOAA Photo Library",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "squid": {
+    "file": "assets/animal-photos/squid.webp",
+    "title": "Squid",
+    "source_file": "Sepioteuthis_sepioidea_(Caribbean_Reef_Squid).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sepioteuthis_sepioidea_(Caribbean_Reef_Squid).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg/960px-Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Nhobgood Nick Hobgood",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "shrimp": {
+    "file": "assets/animal-photos/shrimp.webp",
+    "title": "Shrimp",
+    "source_file": "Palaemon_serratus_Croazia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Palaemon_serratus_Croazia.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Palaemon_serratus_Croazia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Etrusko25",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "crab": {
+    "file": "assets/animal-photos/crab.webp",
+    "title": "Crab",
+    "source_file": "Cancer_pagurus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cancer_pagurus.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cancer_pagurus.jpg/960px-Cancer_pagurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "fish": {
+    "file": "assets/animal-photos/fish.webp",
+    "title": "Fish",
+    "source_file": "Balantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_(cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Balantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_(cropped).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Balantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_%28cropped%29.jpg/960px-Balantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "tropical-fish": {
+    "file": "assets/animal-photos/tropical-fish.webp",
+    "title": "Coral reef fish",
+    "source_file": "Underwater_World.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Underwater_World.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Underwater_World.jpg/960px-Underwater_World.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Fascinating Universe",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "jellyfish": {
+    "file": "assets/animal-photos/jellyfish.webp",
+    "title": "Jellyfish",
+    "source_file": "Jelly_cc11.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Jelly_cc11.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Jelly_cc11.jpg/960px-Jelly_cc11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Dan90266",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "oyster": {
+    "file": "assets/animal-photos/oyster.webp",
+    "title": "Oyster",
+    "source_file": "Crassostrea_gigas_p1040848.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Crassostrea_gigas_p1040848.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Crassostrea_gigas_p1040848.jpg/960px-Crassostrea_gigas_p1040848.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "David Monniaux",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "coral": {
+    "file": "assets/animal-photos/coral.webp",
+    "title": "Coral",
+    "source_file": "Coral_Outcrop_Flynn_Reef.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Coral_Outcrop_Flynn_Reef.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Coral_Outcrop_Flynn_Reef.jpg/960px-Coral_Outcrop_Flynn_Reef.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Toby Hudson",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "crocodile": {
+    "file": "assets/animal-photos/crocodile.webp",
+    "title": "Crocodile",
+    "source_file": "Nile_crocodile_head.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nile_crocodile_head.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Nile_crocodile_head.jpg/960px-Nile_crocodile_head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Leigh Bedford",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "caterpillar": {
+    "file": "assets/animal-photos/caterpillar.webp",
+    "title": "Caterpillar",
+    "source_file": "Chenille_de_Grand_porte_queue_(macaon).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chenille_de_Grand_porte_queue_(macaon).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Chenille_de_Grand_porte_queue_%28macaon%29.jpg/960px-Chenille_de_Grand_porte_queue_%28macaon%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "butterfly": {
+    "file": "assets/animal-photos/butterfly.webp",
+    "title": "Butterfly",
+    "source_file": "Fesoj_-_Papilio_machaon_(by).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fesoj_-_Papilio_machaon_(by).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Fesoj_-_Papilio_machaon_%28by%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "fesoj",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "bee": {
+    "file": "assets/animal-photos/bee.webp",
+    "title": "Bee",
+    "source_file": "Tetragonula_carbonaria_(14521993792).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tetragonula_carbonaria_(14521993792).jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Tetragonula_carbonaria_%2814521993792%29.jpg/960px-Tetragonula_carbonaria_%2814521993792%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Graham Wise from Brisbane, Australia",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "ant": {
+    "file": "assets/animal-photos/ant.webp",
+    "title": "Ant",
+    "source_file": "Red_Ant_-_March_2025.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Ant_-_March_2025.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Red_Ant_-_March_2025.jpg/960px-Red_Ant_-_March_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Samantha Henneke from Seagrove, North Carolina, USA",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "spider": {
+    "file": "assets/animal-photos/spider.webp",
+    "title": "Spider",
+    "source_file": "Araneus_diadematus_(Clerck,_1757).JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_(Clerck,_1757).JPG",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Araneus_diadematus_%28Clerck%2C_1757%29.JPG/960px-Araneus_diadematus_%28Clerck%2C_1757%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Michael Gäbler",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "scorpion": {
+    "file": "assets/animal-photos/scorpion.webp",
+    "title": "Scorpion",
+    "source_file": "Scorpion_Photograph_By_Shantanu_Kuveskar.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Scorpion_Photograph_By_Shantanu_Kuveskar.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Scorpion_Photograph_By_Shantanu_Kuveskar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Shantanu Kuveskar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cricket": {
+    "file": "assets/animal-photos/cricket.webp",
+    "title": "Cricket (insect)",
+    "source_file": "Gryllus_campestris_MHNT.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gryllus_campestris_MHNT.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Gryllus_campestris_MHNT.jpg/960px-Gryllus_campestris_MHNT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "beetle": {
+    "file": "assets/animal-photos/beetle-japanese-beetle.webp",
+    "title": "Japanese beetle",
+    "source_file": "Popillia_japonica.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Popillia_japonica.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Popillia_japonica.jpg/960px-Popillia_japonica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Bruce Marlin",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "fly": {
+    "file": "assets/animal-photos/fly-housefly.webp",
+    "title": "Housefly",
+    "source_file": "Common_house_fly,_Musca_domestica.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_house_fly,_Musca_domestica.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Common_house_fly%2C_Musca_domestica.jpg/960px-Common_house_fly%2C_Musca_domestica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "USDAgov",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "mosquito": {
+    "file": "assets/animal-photos/mosquito.webp",
+    "title": "Mosquito",
+    "source_file": "Aedes_aegypti.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Aedes_aegypti.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Aedes_aegypti.jpg/960px-Aedes_aegypti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Muhammad Mahdi Karim",
+    "license": "GFDL 1.2",
+    "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+  },
+  "t-rex": {
+    "file": "assets/animal-photos/t-rex-tyrannosaurus-rex-expo-dinosaurios-2023---a740976.webp",
+    "title": "Tyrannosaurus",
+    "source_file": "Tyrannosaurus Rex, Expo Dinosaurios 2023 - A740976.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_Rex,_Expo_Dinosaurios_2023_-_A740976.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Tyrannosaurus_Rex%2C_Expo_Dinosaurios_2023_-_A740976.jpg/960px-Tyrannosaurus_Rex%2C_Expo_Dinosaurios_2023_-_A740976.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Rjcastillo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "brachiosaurus": {
+    "file": "assets/animal-photos/brachiosaurus-brachiosaurus-animatronic-model-nhm2.webp",
+    "title": "Brachiosaurus",
+    "source_file": "Brachiosaurus Animatronic model NHM2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Brachiosaurus_Animatronic_model_NHM2.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Brachiosaurus_Animatronic_model_NHM2.jpg/960px-Brachiosaurus_Animatronic_model_NHM2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "User Firsfron on en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "rooster": {
+    "file": "assets/animal-photos/rooster.webp",
+    "title": "Red junglefowl",
+    "source_file": "Red_jungle_fowl.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_jungle_fowl.png",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Red_jungle_fowl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Subramanya C K",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

@@ -1,0 +1,839 @@
+{
+  "LETTERS": [
+    {
+      "letter": "A"
+    },
+    {
+      "letter": "B"
+    },
+    {
+      "letter": "C"
+    },
+    {
+      "letter": "D"
+    },
+    {
+      "letter": "E"
+    },
+    {
+      "letter": "F"
+    },
+    {
+      "letter": "G"
+    },
+    {
+      "letter": "H"
+    },
+    {
+      "letter": "I"
+    },
+    {
+      "letter": "J"
+    },
+    {
+      "letter": "K"
+    },
+    {
+      "letter": "L"
+    },
+    {
+      "letter": "M"
+    },
+    {
+      "letter": "N"
+    },
+    {
+      "letter": "O"
+    },
+    {
+      "letter": "P"
+    },
+    {
+      "letter": "Q"
+    },
+    {
+      "letter": "R"
+    },
+    {
+      "letter": "S"
+    },
+    {
+      "letter": "T"
+    },
+    {
+      "letter": "U"
+    },
+    {
+      "letter": "V"
+    },
+    {
+      "letter": "W"
+    },
+    {
+      "letter": "X"
+    },
+    {
+      "letter": "Y"
+    },
+    {
+      "letter": "Z"
+    }
+  ],
+  "NUMBER_WORDS": {
+    "vi": [
+      "không",
+      "một",
+      "hai",
+      "ba",
+      "bốn",
+      "năm",
+      "sáu",
+      "bảy",
+      "tám",
+      "chín",
+      "mười",
+      "mười một",
+      "mười hai",
+      "mười ba",
+      "mười bốn",
+      "mười lăm",
+      "mười sáu",
+      "mười bảy",
+      "mười tám",
+      "mười chín",
+      "hai mươi"
+    ],
+    "en": [
+      "zero",
+      "one",
+      "two",
+      "three",
+      "four",
+      "five",
+      "six",
+      "seven",
+      "eight",
+      "nine",
+      "ten",
+      "eleven",
+      "twelve",
+      "thirteen",
+      "fourteen",
+      "fifteen",
+      "sixteen",
+      "seventeen",
+      "eighteen",
+      "nineteen",
+      "twenty"
+    ]
+  },
+  "ANIMALS": [
+    {
+      "id": "dog",
+      "emoji": "🐶",
+      "vi": "con chó",
+      "en": "dog",
+      "category": "pets"
+    },
+    {
+      "id": "cat",
+      "emoji": "🐱",
+      "vi": "con mèo",
+      "en": "cat",
+      "category": "pets"
+    },
+    {
+      "id": "rabbit",
+      "emoji": "🐰",
+      "vi": "con thỏ",
+      "en": "rabbit",
+      "category": "pets"
+    },
+    {
+      "id": "hamster",
+      "emoji": "🐹",
+      "vi": "chuột hamster",
+      "en": "hamster",
+      "category": "pets"
+    },
+    {
+      "id": "mouse",
+      "emoji": "🐭",
+      "vi": "chuột nhắt",
+      "en": "mouse",
+      "category": "pets"
+    },
+    {
+      "id": "turtle",
+      "emoji": "🐢",
+      "vi": "con rùa",
+      "en": "turtle",
+      "category": "pets"
+    },
+    {
+      "id": "parrot",
+      "emoji": "🦜",
+      "vi": "con vẹt",
+      "en": "parrot",
+      "category": "pets"
+    },
+    {
+      "id": "goldfish",
+      "emoji": "🐠",
+      "vi": "cá vàng",
+      "en": "goldfish",
+      "category": "pets"
+    },
+    {
+      "id": "cow",
+      "emoji": "🐄",
+      "vi": "con bò",
+      "en": "cow",
+      "category": "farm"
+    },
+    {
+      "id": "pig",
+      "emoji": "🐖",
+      "vi": "con lợn",
+      "en": "pig",
+      "category": "farm"
+    },
+    {
+      "id": "sheep",
+      "emoji": "🐑",
+      "vi": "con cừu",
+      "en": "sheep",
+      "category": "farm"
+    },
+    {
+      "id": "goat",
+      "emoji": "🐐",
+      "vi": "con dê",
+      "en": "goat",
+      "category": "farm"
+    },
+    {
+      "id": "horse",
+      "emoji": "🐎",
+      "vi": "con ngựa",
+      "en": "horse",
+      "category": "farm"
+    },
+    {
+      "id": "donkey",
+      "emoji": "🫏",
+      "vi": "con lừa",
+      "en": "donkey",
+      "category": "farm"
+    },
+    {
+      "id": "llama",
+      "emoji": "🦙",
+      "vi": "lạc đà không bướu",
+      "en": "llama",
+      "category": "farm"
+    },
+    {
+      "id": "chicken",
+      "emoji": "🐔",
+      "vi": "con gà",
+      "en": "chicken",
+      "category": "farm"
+    },
+    {
+      "id": "rooster",
+      "emoji": "🐓",
+      "vi": "gà trống",
+      "en": "rooster",
+      "category": "farm"
+    },
+    {
+      "id": "duck",
+      "emoji": "🦆",
+      "vi": "con vịt",
+      "en": "duck",
+      "category": "farm"
+    },
+    {
+      "id": "goose",
+      "emoji": "🪿",
+      "vi": "con ngỗng",
+      "en": "goose",
+      "category": "farm"
+    },
+    {
+      "id": "lion",
+      "emoji": "🦁",
+      "vi": "con sư tử",
+      "en": "lion",
+      "category": "wild"
+    },
+    {
+      "id": "tiger",
+      "emoji": "🐯",
+      "vi": "con hổ",
+      "en": "tiger",
+      "category": "wild"
+    },
+    {
+      "id": "elephant",
+      "emoji": "🐘",
+      "vi": "con voi",
+      "en": "elephant",
+      "category": "wild"
+    },
+    {
+      "id": "giraffe",
+      "emoji": "🦒",
+      "vi": "hươu cao cổ",
+      "en": "giraffe",
+      "category": "wild"
+    },
+    {
+      "id": "zebra",
+      "emoji": "🦓",
+      "vi": "ngựa vằn",
+      "en": "zebra",
+      "category": "wild"
+    },
+    {
+      "id": "monkey",
+      "emoji": "🐒",
+      "vi": "con khỉ",
+      "en": "monkey",
+      "category": "wild"
+    },
+    {
+      "id": "gorilla",
+      "emoji": "🦍",
+      "vi": "khỉ đột",
+      "en": "gorilla",
+      "category": "wild"
+    },
+    {
+      "id": "fox",
+      "emoji": "🦊",
+      "vi": "con cáo",
+      "en": "fox",
+      "category": "wild"
+    },
+    {
+      "id": "wolf",
+      "emoji": "🐺",
+      "vi": "con sói",
+      "en": "wolf",
+      "category": "wild"
+    },
+    {
+      "id": "bear",
+      "emoji": "🐻",
+      "vi": "con gấu",
+      "en": "bear",
+      "category": "wild"
+    },
+    {
+      "id": "polar-bear",
+      "emoji": "🐻‍❄️",
+      "vi": "gấu Bắc Cực",
+      "en": "polar bear",
+      "category": "wild"
+    },
+    {
+      "id": "panda",
+      "emoji": "🐼",
+      "vi": "gấu trúc",
+      "en": "panda",
+      "category": "wild"
+    },
+    {
+      "id": "koala",
+      "emoji": "🐨",
+      "vi": "gấu túi",
+      "en": "koala",
+      "category": "wild"
+    },
+    {
+      "id": "kangaroo",
+      "emoji": "🦘",
+      "vi": "chuột túi",
+      "en": "kangaroo",
+      "category": "wild"
+    },
+    {
+      "id": "deer",
+      "emoji": "🦌",
+      "vi": "con hươu",
+      "en": "deer",
+      "category": "wild"
+    },
+    {
+      "id": "moose",
+      "emoji": "🫎",
+      "vi": "con nai sừng tấm",
+      "en": "moose",
+      "category": "wild"
+    },
+    {
+      "id": "hippo",
+      "emoji": "🦛",
+      "vi": "con hà mã",
+      "en": "hippo",
+      "category": "wild"
+    },
+    {
+      "id": "rhino",
+      "emoji": "🦏",
+      "vi": "tê giác",
+      "en": "rhino",
+      "category": "wild"
+    },
+    {
+      "id": "leopard",
+      "emoji": "🐆",
+      "vi": "con báo",
+      "en": "leopard",
+      "category": "wild"
+    },
+    {
+      "id": "camel",
+      "emoji": "🐪",
+      "vi": "lạc đà",
+      "en": "camel",
+      "category": "wild"
+    },
+    {
+      "id": "sloth",
+      "emoji": "🦥",
+      "vi": "con lười",
+      "en": "sloth",
+      "category": "wild"
+    },
+    {
+      "id": "badger",
+      "emoji": "🦡",
+      "vi": "con lửng",
+      "en": "badger",
+      "category": "wild"
+    },
+    {
+      "id": "otter",
+      "emoji": "🦦",
+      "vi": "con rái cá",
+      "en": "otter",
+      "category": "wild"
+    },
+    {
+      "id": "beaver",
+      "emoji": "🦫",
+      "vi": "con hải ly",
+      "en": "beaver",
+      "category": "wild"
+    },
+    {
+      "id": "hedgehog",
+      "emoji": "🦔",
+      "vi": "con nhím",
+      "en": "hedgehog",
+      "category": "wild"
+    },
+    {
+      "id": "bat",
+      "emoji": "🦇",
+      "vi": "con dơi",
+      "en": "bat",
+      "category": "wild"
+    },
+    {
+      "id": "squirrel",
+      "emoji": "🐿️",
+      "vi": "con sóc",
+      "en": "squirrel",
+      "category": "wild"
+    },
+    {
+      "id": "skunk",
+      "emoji": "🦨",
+      "vi": "chồn hôi",
+      "en": "skunk",
+      "category": "wild"
+    },
+    {
+      "id": "raccoon",
+      "emoji": "🦝",
+      "vi": "gấu mèo",
+      "en": "raccoon",
+      "category": "wild"
+    },
+    {
+      "id": "bison",
+      "emoji": "🦬",
+      "vi": "con bò rừng",
+      "en": "bison",
+      "category": "wild"
+    },
+    {
+      "id": "mammoth",
+      "emoji": "🦣",
+      "vi": "voi ma mút",
+      "en": "mammoth",
+      "category": "wild"
+    },
+    {
+      "id": "snake",
+      "emoji": "🐍",
+      "vi": "con rắn",
+      "en": "snake",
+      "category": "wild"
+    },
+    {
+      "id": "lizard",
+      "emoji": "🦎",
+      "vi": "con thằn lằn",
+      "en": "lizard",
+      "category": "wild"
+    },
+    {
+      "id": "frog",
+      "emoji": "🐸",
+      "vi": "con ếch",
+      "en": "frog",
+      "category": "wild"
+    },
+    {
+      "id": "eagle",
+      "emoji": "🦅",
+      "vi": "đại bàng",
+      "en": "eagle",
+      "category": "birds"
+    },
+    {
+      "id": "owl",
+      "emoji": "🦉",
+      "vi": "cú mèo",
+      "en": "owl",
+      "category": "birds"
+    },
+    {
+      "id": "peacock",
+      "emoji": "🦚",
+      "vi": "con công",
+      "en": "peacock",
+      "category": "birds"
+    },
+    {
+      "id": "flamingo",
+      "emoji": "🦩",
+      "vi": "hồng hạc",
+      "en": "flamingo",
+      "category": "birds"
+    },
+    {
+      "id": "penguin",
+      "emoji": "🐧",
+      "vi": "chim cánh cụt",
+      "en": "penguin",
+      "category": "birds"
+    },
+    {
+      "id": "swan",
+      "emoji": "🦢",
+      "vi": "thiên nga",
+      "en": "swan",
+      "category": "birds"
+    },
+    {
+      "id": "dove",
+      "emoji": "🕊️",
+      "vi": "bồ câu",
+      "en": "dove",
+      "category": "birds"
+    },
+    {
+      "id": "turkey",
+      "emoji": "🦃",
+      "vi": "gà tây",
+      "en": "turkey",
+      "category": "birds"
+    },
+    {
+      "id": "dodo",
+      "emoji": "🦤",
+      "vi": "chim dodo",
+      "en": "dodo",
+      "category": "birds"
+    },
+    {
+      "id": "bird",
+      "emoji": "🐦",
+      "vi": "con chim",
+      "en": "bird",
+      "category": "birds"
+    },
+    {
+      "id": "whale",
+      "emoji": "🐋",
+      "vi": "cá voi",
+      "en": "whale",
+      "category": "sea"
+    },
+    {
+      "id": "dolphin",
+      "emoji": "🐬",
+      "vi": "cá heo",
+      "en": "dolphin",
+      "category": "sea"
+    },
+    {
+      "id": "shark",
+      "emoji": "🦈",
+      "vi": "cá mập",
+      "en": "shark",
+      "category": "sea"
+    },
+    {
+      "id": "octopus",
+      "emoji": "🐙",
+      "vi": "con bạch tuộc",
+      "en": "octopus",
+      "category": "sea"
+    },
+    {
+      "id": "squid",
+      "emoji": "🦑",
+      "vi": "con mực",
+      "en": "squid",
+      "category": "sea"
+    },
+    {
+      "id": "shrimp",
+      "emoji": "🦐",
+      "vi": "con tôm",
+      "en": "shrimp",
+      "category": "sea"
+    },
+    {
+      "id": "crab",
+      "emoji": "🦀",
+      "vi": "con cua",
+      "en": "crab",
+      "category": "sea"
+    },
+    {
+      "id": "lobster",
+      "emoji": "🦞",
+      "vi": "tôm hùm",
+      "en": "lobster",
+      "category": "sea"
+    },
+    {
+      "id": "fish",
+      "emoji": "🐟",
+      "vi": "con cá",
+      "en": "fish",
+      "category": "sea"
+    },
+    {
+      "id": "tropical-fish",
+      "emoji": "🐠",
+      "vi": "cá nhiệt đới",
+      "en": "tropical fish",
+      "category": "sea"
+    },
+    {
+      "id": "pufferfish",
+      "emoji": "🐡",
+      "vi": "cá nóc",
+      "en": "pufferfish",
+      "category": "sea"
+    },
+    {
+      "id": "seal",
+      "emoji": "🦭",
+      "vi": "hải cẩu",
+      "en": "seal",
+      "category": "sea"
+    },
+    {
+      "id": "jellyfish",
+      "emoji": "🪼",
+      "vi": "con sứa",
+      "en": "jellyfish",
+      "category": "sea"
+    },
+    {
+      "id": "oyster",
+      "emoji": "🦪",
+      "vi": "con hàu",
+      "en": "oyster",
+      "category": "sea"
+    },
+    {
+      "id": "coral",
+      "emoji": "🪸",
+      "vi": "san hô",
+      "en": "coral",
+      "category": "sea"
+    },
+    {
+      "id": "crocodile",
+      "emoji": "🐊",
+      "vi": "cá sấu",
+      "en": "crocodile",
+      "category": "sea"
+    },
+    {
+      "id": "caterpillar",
+      "emoji": "🐛",
+      "vi": "con sâu bướm",
+      "en": "caterpillar",
+      "category": "bugs"
+    },
+    {
+      "id": "butterfly",
+      "emoji": "🦋",
+      "vi": "con bướm",
+      "en": "butterfly",
+      "category": "bugs"
+    },
+    {
+      "id": "bee",
+      "emoji": "🐝",
+      "vi": "con ong",
+      "en": "bee",
+      "category": "bugs"
+    },
+    {
+      "id": "ladybug",
+      "emoji": "🐞",
+      "vi": "bọ rùa",
+      "en": "ladybug",
+      "category": "bugs"
+    },
+    {
+      "id": "ant",
+      "emoji": "🐜",
+      "vi": "con kiến",
+      "en": "ant",
+      "category": "bugs"
+    },
+    {
+      "id": "spider",
+      "emoji": "🕷️",
+      "vi": "con nhện",
+      "en": "spider",
+      "category": "bugs"
+    },
+    {
+      "id": "scorpion",
+      "emoji": "🦂",
+      "vi": "bọ cạp",
+      "en": "scorpion",
+      "category": "bugs"
+    },
+    {
+      "id": "snail",
+      "emoji": "🐌",
+      "vi": "ốc sên",
+      "en": "snail",
+      "category": "bugs"
+    },
+    {
+      "id": "cricket",
+      "emoji": "🦗",
+      "vi": "con dế",
+      "en": "cricket",
+      "category": "bugs"
+    },
+    {
+      "id": "beetle",
+      "emoji": "🪲",
+      "vi": "bọ cánh cứng",
+      "en": "beetle",
+      "category": "bugs"
+    },
+    {
+      "id": "fly",
+      "emoji": "🪰",
+      "vi": "con ruồi",
+      "en": "fly",
+      "category": "bugs"
+    },
+    {
+      "id": "mosquito",
+      "emoji": "🦟",
+      "vi": "con muỗi",
+      "en": "mosquito",
+      "category": "bugs"
+    },
+    {
+      "id": "t-rex",
+      "emoji": "🦖",
+      "vi": "khủng long bạo chúa",
+      "en": "T-Rex",
+      "category": "dinosaurs"
+    },
+    {
+      "id": "brachiosaurus",
+      "emoji": "🦕",
+      "vi": "khủng long cổ dài",
+      "en": "brachiosaurus",
+      "category": "dinosaurs"
+    }
+  ],
+  "VI_LETTER_NAMES": {
+    "A": "a",
+    "B": "bê",
+    "C": "xê",
+    "D": "đê",
+    "E": "e",
+    "F": "ép-phê",
+    "G": "giê",
+    "H": "hát",
+    "I": "i",
+    "J": "giây",
+    "K": "ca",
+    "L": "e-lờ",
+    "M": "em-mờ",
+    "N": "en-nờ",
+    "O": "ô",
+    "P": "pê",
+    "Q": "quy",
+    "R": "e-rờ",
+    "S": "ét",
+    "T": "tê",
+    "U": "u",
+    "V": "vê",
+    "W": "đắp-bờ-lu",
+    "X": "ích",
+    "Y": "i-dài",
+    "Z": "dét"
+  },
+  "EN_LETTER_NAMES": {
+    "A": "ay",
+    "B": "bee",
+    "C": "see",
+    "D": "dee",
+    "E": "ee",
+    "F": "eff",
+    "G": "gee",
+    "H": "aitch",
+    "I": "eye",
+    "J": "jay",
+    "K": "kay",
+    "L": "el",
+    "M": "em",
+    "N": "en",
+    "O": "oh",
+    "P": "pee",
+    "Q": "cue",
+    "R": "ar",
+    "S": "ess",
+    "T": "tee",
+    "U": "you",
+    "V": "vee",
+    "W": "double-u",
+    "X": "ex",
+    "Y": "why",
+    "Z": "zee"
+  }
+}

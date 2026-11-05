@@ -1,0 +1,1402 @@
+[
+  {
+    "path": "assets/audio/letters/a-vi.mp3",
+    "text": "Chữ A.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/a-en.mp3",
+    "text": "Ay.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/b-vi.mp3",
+    "text": "Chữ Bờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/b-en.mp3",
+    "text": "Bee.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/c-vi.mp3",
+    "text": "Chữ Cờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/c-en.mp3",
+    "text": "See.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/d-vi.mp3",
+    "text": "Chữ Dờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/d-en.mp3",
+    "text": "Dee.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/e-vi.mp3",
+    "text": "Chữ E.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/e-en.mp3",
+    "text": "Ee.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/f-vi.mp3",
+    "text": "Chữ Ép.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/f-en.mp3",
+    "text": "Eff.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/g-vi.mp3",
+    "text": "Chữ Gờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/g-en.mp3",
+    "text": "Gee.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/h-vi.mp3",
+    "text": "Chữ Hờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/h-en.mp3",
+    "text": "Aitch.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/i-vi.mp3",
+    "text": "Chữ I.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/i-en.mp3",
+    "text": "Eye.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/j-vi.mp3",
+    "text": "Chữ Gi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/j-en.mp3",
+    "text": "Jay.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/k-vi.mp3",
+    "text": "Chữ Ca.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/k-en.mp3",
+    "text": "Kay.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/l-vi.mp3",
+    "text": "Chữ Lờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/l-en.mp3",
+    "text": "El.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/m-vi.mp3",
+    "text": "Chữ Mờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/m-en.mp3",
+    "text": "Em.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/n-vi.mp3",
+    "text": "Chữ Nờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/n-en.mp3",
+    "text": "En.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/o-vi.mp3",
+    "text": "Chữ O.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/o-en.mp3",
+    "text": "Oh.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/p-vi.mp3",
+    "text": "Chữ Pờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/p-en.mp3",
+    "text": "Pee.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/q-vi.mp3",
+    "text": "Chữ Quờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/q-en.mp3",
+    "text": "Cue.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/r-vi.mp3",
+    "text": "Chữ Rờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/r-en.mp3",
+    "text": "Ar.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/s-vi.mp3",
+    "text": "Chữ Sờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/s-en.mp3",
+    "text": "Ess.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/t-vi.mp3",
+    "text": "Chữ Tờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/t-en.mp3",
+    "text": "Tee.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/u-vi.mp3",
+    "text": "Chữ U.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/u-en.mp3",
+    "text": "You.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/v-vi.mp3",
+    "text": "Chữ Vờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/v-en.mp3",
+    "text": "Vee.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/w-vi.mp3",
+    "text": "Chữ Vê kép.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/w-en.mp3",
+    "text": "Double-u.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/x-vi.mp3",
+    "text": "Chữ Xờ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/x-en.mp3",
+    "text": "Ex.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/y-vi.mp3",
+    "text": "Chữ Y.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/y-en.mp3",
+    "text": "Why.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/letters/z-vi.mp3",
+    "text": "Chữ Zét.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/letters/z-en.mp3",
+    "text": "Zee.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/0-vi.mp3",
+    "text": "Số không.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/1-vi.mp3",
+    "text": "Số một.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/2-vi.mp3",
+    "text": "Số hai.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/3-vi.mp3",
+    "text": "Số ba.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/4-vi.mp3",
+    "text": "Số bốn.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/5-vi.mp3",
+    "text": "Số năm.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/6-vi.mp3",
+    "text": "Số sáu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/7-vi.mp3",
+    "text": "Số bảy.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/8-vi.mp3",
+    "text": "Số tám.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/9-vi.mp3",
+    "text": "Số chín.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/10-vi.mp3",
+    "text": "Số mười.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/11-vi.mp3",
+    "text": "Số mười một.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/12-vi.mp3",
+    "text": "Số mười hai.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/13-vi.mp3",
+    "text": "Số mười ba.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/14-vi.mp3",
+    "text": "Số mười bốn.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/15-vi.mp3",
+    "text": "Số mười lăm.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/16-vi.mp3",
+    "text": "Số mười sáu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/17-vi.mp3",
+    "text": "Số mười bảy.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/18-vi.mp3",
+    "text": "Số mười tám.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/19-vi.mp3",
+    "text": "Số mười chín.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/20-vi.mp3",
+    "text": "Số hai mươi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/numbers/0-en.mp3",
+    "text": "Zero.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/1-en.mp3",
+    "text": "One.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/2-en.mp3",
+    "text": "Two.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/3-en.mp3",
+    "text": "Three.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/4-en.mp3",
+    "text": "Four.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/5-en.mp3",
+    "text": "Five.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/6-en.mp3",
+    "text": "Six.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/7-en.mp3",
+    "text": "Seven.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/8-en.mp3",
+    "text": "Eight.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/9-en.mp3",
+    "text": "Nine.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/10-en.mp3",
+    "text": "Ten.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/11-en.mp3",
+    "text": "Eleven.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/12-en.mp3",
+    "text": "Twelve.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/13-en.mp3",
+    "text": "Thirteen.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/14-en.mp3",
+    "text": "Fourteen.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/15-en.mp3",
+    "text": "Fifteen.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/16-en.mp3",
+    "text": "Sixteen.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/17-en.mp3",
+    "text": "Seventeen.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/18-en.mp3",
+    "text": "Eighteen.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/19-en.mp3",
+    "text": "Nineteen.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/numbers/20-en.mp3",
+    "text": "Twenty.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/dog-vi.mp3",
+    "text": "Con chó.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/dog-en.mp3",
+    "text": "Dog.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/cat-vi.mp3",
+    "text": "Con mèo.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/cat-en.mp3",
+    "text": "Cat.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/rabbit-vi.mp3",
+    "text": "Con thỏ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/rabbit-en.mp3",
+    "text": "Rabbit.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/hamster-vi.mp3",
+    "text": "Chuột hamster.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/hamster-en.mp3",
+    "text": "Hamster.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/mouse-vi.mp3",
+    "text": "Chuột nhắt.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/mouse-en.mp3",
+    "text": "Mouse.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/turtle-vi.mp3",
+    "text": "Con rùa.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/turtle-en.mp3",
+    "text": "Turtle.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/parrot-vi.mp3",
+    "text": "Con vẹt.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/parrot-en.mp3",
+    "text": "Parrot.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/goldfish-vi.mp3",
+    "text": "Cá vàng.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/goldfish-en.mp3",
+    "text": "Goldfish.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/cow-vi.mp3",
+    "text": "Con bò.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/cow-en.mp3",
+    "text": "Cow.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/pig-vi.mp3",
+    "text": "Con lợn.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/pig-en.mp3",
+    "text": "Pig.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/sheep-vi.mp3",
+    "text": "Con cừu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/sheep-en.mp3",
+    "text": "Sheep.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/goat-vi.mp3",
+    "text": "Con dê.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/goat-en.mp3",
+    "text": "Goat.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/horse-vi.mp3",
+    "text": "Con ngựa.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/horse-en.mp3",
+    "text": "Horse.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/donkey-vi.mp3",
+    "text": "Con lừa.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/donkey-en.mp3",
+    "text": "Donkey.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/llama-vi.mp3",
+    "text": "Lạc đà không bướu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/llama-en.mp3",
+    "text": "Llama.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/chicken-vi.mp3",
+    "text": "Con gà.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/chicken-en.mp3",
+    "text": "Chicken.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/rooster-vi.mp3",
+    "text": "Gà trống.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/rooster-en.mp3",
+    "text": "Rooster.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/duck-vi.mp3",
+    "text": "Con vịt.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/duck-en.mp3",
+    "text": "Duck.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/goose-vi.mp3",
+    "text": "Con ngỗng.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/goose-en.mp3",
+    "text": "Goose.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/lion-vi.mp3",
+    "text": "Con sư tử.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/lion-en.mp3",
+    "text": "Lion.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/tiger-vi.mp3",
+    "text": "Con hổ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/tiger-en.mp3",
+    "text": "Tiger.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/elephant-vi.mp3",
+    "text": "Con voi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/elephant-en.mp3",
+    "text": "Elephant.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/giraffe-vi.mp3",
+    "text": "Hươu cao cổ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/giraffe-en.mp3",
+    "text": "Giraffe.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/zebra-vi.mp3",
+    "text": "Ngựa vằn.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/zebra-en.mp3",
+    "text": "Zebra.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/monkey-vi.mp3",
+    "text": "Con khỉ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/monkey-en.mp3",
+    "text": "Monkey.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/gorilla-vi.mp3",
+    "text": "Khỉ đột.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/gorilla-en.mp3",
+    "text": "Gorilla.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/fox-vi.mp3",
+    "text": "Con cáo.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/fox-en.mp3",
+    "text": "Fox.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/wolf-vi.mp3",
+    "text": "Con sói.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/wolf-en.mp3",
+    "text": "Wolf.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/bear-vi.mp3",
+    "text": "Con gấu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/bear-en.mp3",
+    "text": "Bear.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/polar-bear-vi.mp3",
+    "text": "Gấu Bắc Cực.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/polar-bear-en.mp3",
+    "text": "Polar bear.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/panda-vi.mp3",
+    "text": "Gấu trúc.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/panda-en.mp3",
+    "text": "Panda.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/koala-vi.mp3",
+    "text": "Gấu túi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/koala-en.mp3",
+    "text": "Koala.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/kangaroo-vi.mp3",
+    "text": "Chuột túi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/kangaroo-en.mp3",
+    "text": "Kangaroo.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/deer-vi.mp3",
+    "text": "Con hươu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/deer-en.mp3",
+    "text": "Deer.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/moose-vi.mp3",
+    "text": "Con nai sừng tấm.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/moose-en.mp3",
+    "text": "Moose.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/hippo-vi.mp3",
+    "text": "Con hà mã.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/hippo-en.mp3",
+    "text": "Hippo.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/rhino-vi.mp3",
+    "text": "Tê giác.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/rhino-en.mp3",
+    "text": "Rhino.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/leopard-vi.mp3",
+    "text": "Con báo.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/leopard-en.mp3",
+    "text": "Leopard.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/camel-vi.mp3",
+    "text": "Lạc đà.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/camel-en.mp3",
+    "text": "Camel.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/sloth-vi.mp3",
+    "text": "Con lười.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/sloth-en.mp3",
+    "text": "Sloth.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/badger-vi.mp3",
+    "text": "Con lửng.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/badger-en.mp3",
+    "text": "Badger.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/otter-vi.mp3",
+    "text": "Con rái cá.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/otter-en.mp3",
+    "text": "Otter.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/beaver-vi.mp3",
+    "text": "Con hải ly.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/beaver-en.mp3",
+    "text": "Beaver.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/hedgehog-vi.mp3",
+    "text": "Con nhím.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/hedgehog-en.mp3",
+    "text": "Hedgehog.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/bat-vi.mp3",
+    "text": "Con dơi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/bat-en.mp3",
+    "text": "Bat.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/squirrel-vi.mp3",
+    "text": "Con sóc.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/squirrel-en.mp3",
+    "text": "Squirrel.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/skunk-vi.mp3",
+    "text": "Chồn hôi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/skunk-en.mp3",
+    "text": "Skunk.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/raccoon-vi.mp3",
+    "text": "Gấu mèo.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/raccoon-en.mp3",
+    "text": "Raccoon.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/bison-vi.mp3",
+    "text": "Con bò rừng.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/bison-en.mp3",
+    "text": "Bison.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/mammoth-vi.mp3",
+    "text": "Voi ma mút.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/mammoth-en.mp3",
+    "text": "Mammoth.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/snake-vi.mp3",
+    "text": "Con rắn.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/snake-en.mp3",
+    "text": "Snake.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/lizard-vi.mp3",
+    "text": "Con thằn lằn.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/lizard-en.mp3",
+    "text": "Lizard.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/frog-vi.mp3",
+    "text": "Con ếch.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/frog-en.mp3",
+    "text": "Frog.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/eagle-vi.mp3",
+    "text": "Đại bàng.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/eagle-en.mp3",
+    "text": "Eagle.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/owl-vi.mp3",
+    "text": "Cú mèo.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/owl-en.mp3",
+    "text": "Owl.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/peacock-vi.mp3",
+    "text": "Con công.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/peacock-en.mp3",
+    "text": "Peacock.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/flamingo-vi.mp3",
+    "text": "Hồng hạc.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/flamingo-en.mp3",
+    "text": "Flamingo.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/penguin-vi.mp3",
+    "text": "Chim cánh cụt.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/penguin-en.mp3",
+    "text": "Penguin.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/swan-vi.mp3",
+    "text": "Thiên nga.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/swan-en.mp3",
+    "text": "Swan.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/dove-vi.mp3",
+    "text": "Bồ câu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/dove-en.mp3",
+    "text": "Dove.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/turkey-vi.mp3",
+    "text": "Gà tây.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/turkey-en.mp3",
+    "text": "Turkey.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/dodo-vi.mp3",
+    "text": "Chim dodo.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/dodo-en.mp3",
+    "text": "Dodo.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/bird-vi.mp3",
+    "text": "Con chim.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/bird-en.mp3",
+    "text": "Bird.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/whale-vi.mp3",
+    "text": "Cá voi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/whale-en.mp3",
+    "text": "Whale.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/dolphin-vi.mp3",
+    "text": "Cá heo.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/dolphin-en.mp3",
+    "text": "Dolphin.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/shark-vi.mp3",
+    "text": "Cá mập.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/shark-en.mp3",
+    "text": "Shark.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/octopus-vi.mp3",
+    "text": "Con bạch tuộc.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/octopus-en.mp3",
+    "text": "Octopus.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/squid-vi.mp3",
+    "text": "Con mực.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/squid-en.mp3",
+    "text": "Squid.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/shrimp-vi.mp3",
+    "text": "Con tôm.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/shrimp-en.mp3",
+    "text": "Shrimp.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/crab-vi.mp3",
+    "text": "Con cua.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/crab-en.mp3",
+    "text": "Crab.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/lobster-vi.mp3",
+    "text": "Tôm hùm.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/lobster-en.mp3",
+    "text": "Lobster.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/fish-vi.mp3",
+    "text": "Con cá.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/fish-en.mp3",
+    "text": "Fish.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/tropical-fish-vi.mp3",
+    "text": "Cá nhiệt đới.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/tropical-fish-en.mp3",
+    "text": "Tropical fish.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/pufferfish-vi.mp3",
+    "text": "Cá nóc.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/pufferfish-en.mp3",
+    "text": "Pufferfish.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/seal-vi.mp3",
+    "text": "Hải cẩu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/seal-en.mp3",
+    "text": "Seal.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/jellyfish-vi.mp3",
+    "text": "Con sứa.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/jellyfish-en.mp3",
+    "text": "Jellyfish.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/oyster-vi.mp3",
+    "text": "Con hàu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/oyster-en.mp3",
+    "text": "Oyster.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/coral-vi.mp3",
+    "text": "San hô.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/coral-en.mp3",
+    "text": "Coral.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/crocodile-vi.mp3",
+    "text": "Cá sấu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/crocodile-en.mp3",
+    "text": "Crocodile.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/caterpillar-vi.mp3",
+    "text": "Con sâu bướm.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/caterpillar-en.mp3",
+    "text": "Caterpillar.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/butterfly-vi.mp3",
+    "text": "Con bướm.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/butterfly-en.mp3",
+    "text": "Butterfly.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/bee-vi.mp3",
+    "text": "Con ong.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/bee-en.mp3",
+    "text": "Bee.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/ladybug-vi.mp3",
+    "text": "Bọ rùa.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/ladybug-en.mp3",
+    "text": "Ladybug.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/ant-vi.mp3",
+    "text": "Con kiến.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/ant-en.mp3",
+    "text": "Ant.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/spider-vi.mp3",
+    "text": "Con nhện.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/spider-en.mp3",
+    "text": "Spider.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/scorpion-vi.mp3",
+    "text": "Bọ cạp.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/scorpion-en.mp3",
+    "text": "Scorpion.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/snail-vi.mp3",
+    "text": "Ốc sên.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/snail-en.mp3",
+    "text": "Snail.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/cricket-vi.mp3",
+    "text": "Con dế.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/cricket-en.mp3",
+    "text": "Cricket.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/beetle-vi.mp3",
+    "text": "Bọ cánh cứng.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/beetle-en.mp3",
+    "text": "Beetle.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/fly-vi.mp3",
+    "text": "Con ruồi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/fly-en.mp3",
+    "text": "Fly.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/mosquito-vi.mp3",
+    "text": "Con muỗi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/mosquito-en.mp3",
+    "text": "Mosquito.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/t-rex-vi.mp3",
+    "text": "Khủng long bạo chúa.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/t-rex-en.mp3",
+    "text": "T-Rex.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/animals/brachiosaurus-vi.mp3",
+    "text": "Khủng long cổ dài.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/animals/brachiosaurus-en.mp3",
+    "text": "Brachiosaurus.",
+    "voice": "en-GB-SoniaNeural"
+  }
+]

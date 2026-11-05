@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Bé Học Vui - Học chữ cái, số đếm và hơn 80 con vật bằng tiếng Việt và tiếng Anh."
+    />
+    <meta name="theme-color" content="#fffaf0" />
+    <meta name="application-name" content="Bé Học Vui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Bé Học Vui" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="assets/brand/logo.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png" />
+    <title>Bé Học Vui</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=9" />
+  </head>
+  <body>
+    <div class="page-decor" aria-hidden="true">
+      <span class="decor decor-cloud cloud-one"></span>
+      <span class="decor decor-cloud cloud-two"></span>
+      <span class="decor decor-star star-one">✦</span>
+      <span class="decor decor-star star-two">✦</span>
+      <span class="decor decor-star star-three">✦</span>
+    </div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#" aria-label="Bé Học Vui - về trang đầu">
+          <span class="brand-mark" aria-hidden="true">
+            <img class="brand-logo" src="assets/brand/icon-192.png" alt="" />
+          </span>
+          <span class="brand-copy">
+            <strong>Bé Học Vui</strong>
+            <small>Learn &amp; play</small>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Chọn bài học">
+          <button class="nav-tab active" type="button" data-mode="letters" aria-pressed="true">
+            <span class="nav-icon nav-icon-letter" aria-hidden="true">Aa</span>
+            <span data-i18n="navLetters">Chữ cái</span>
+          </button>
+          <button class="nav-tab" type="button" data-mode="numbers" aria-pressed="false">
+            <span class="nav-icon nav-icon-number" aria-hidden="true">123</span>
+            <span data-i18n="navNumbers">Học số</span>
+          </button>
+          <button class="nav-tab" type="button" data-mode="animals" aria-pressed="false">
+            <span class="nav-icon nav-icon-animal" aria-hidden="true">🐾</span>
+            <span data-i18n="navAnimals">Con vật</span>
+          </button>
+          <button class="nav-tab" type="button" data-mode="games" aria-pressed="false">
+            <span class="nav-icon nav-icon-game" aria-hidden="true">★</span>
+            <span data-i18n="navGames">Trò chơi</span>
+          </button>
+        </nav>
+
+        <div class="language-switch" role="group" aria-label="Chọn ngôn ngữ">
+          <button class="language-button active" type="button" data-lang="vi" aria-pressed="true">
+            <span class="flag" aria-hidden="true">🇻🇳</span>
+            <span>VI</span>
+          </button>
+          <button class="language-button" type="button" data-lang="en" aria-pressed="false">
+            <span class="flag" aria-hidden="true">🇬🇧</span>
+            <span>EN</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="eyebrow-icon" aria-hidden="true">✦</span>
+            <span data-i18n="heroEyebrow">Vừa học vừa chơi</span>
+          </div>
+          <h1 id="page-title" data-i18n="lettersTitle">Chữ cái vui nhộn</h1>
+          <p class="hero-description" data-i18n="lettersDescription">
+            Bấm vào thẻ để nghe cách đọc chữ cái và tên hình nhé!
+          </p>
+          <div class="hero-tip">
+            <span class="tip-icon" aria-hidden="true">👆</span>
+            <span data-i18n="tapTip">Chạm vào hình bất kỳ để nghe</span>
+          </div>
+        </div>
+
+        <div class="hero-mascot" aria-hidden="true">
+          <div class="mascot-bubble">
+            <span data-i18n="mascotHello">Mình học cùng nhau nhé!</span>
+            <span class="bubble-dot"></span>
+          </div>
+          <div class="mascot-art">
+            <svg viewBox="0 0 270 220" role="img" aria-label="Chú cú mèo ham học">
+              <defs>
+                <linearGradient id="owl-body" x1="0" x2="1" y1="0" y2="1">
+                  <stop offset="0" stop-color="#ffbd59" />
+                  <stop offset="1" stop-color="#f39635" />
+                </linearGradient>
+                <linearGradient id="owl-belly" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="#fff8df" />
+                  <stop offset="1" stop-color="#ffe9a9" />
+                </linearGradient>
+              </defs>
+              <path d="M56 78c6-34 42-59 80-59 39 0 75 25 80 60l8 83c2 25-18 44-43 44H91c-25 0-45-19-43-44l8-84Z" fill="url(#owl-body)" />
+              <path d="M59 53 79 17l23 27M212 53l-20-36-23 27" fill="url(#owl-body)" />
+              <path d="M85 129c0-32 21-57 51-57s51 25 51 57c0 35-22 61-51 61s-51-26-51-61Z" fill="url(#owl-belly)" />
+              <circle cx="102" cy="76" r="29" fill="#fffdf7" />
+              <circle cx="169" cy="76" r="29" fill="#fffdf7" />
+              <circle cx="108" cy="80" r="12" fill="#394150" />
+              <circle cx="163" cy="80" r="12" fill="#394150" />
+              <circle cx="112" cy="76" r="4" fill="#fff" />
+              <circle cx="167" cy="76" r="4" fill="#fff" />
+              <path d="m136 91-12 15h23l-11-15Z" fill="#f78b3f" />
+              <path d="M109 147c8-9 18-9 27 0 9-9 19-9 27 0-7 13-18 20-27 20s-20-7-27-20Z" fill="#f7a63b" />
+              <path d="M79 148c-27 2-45 13-48 31 16 1 31-3 45-13M192 148c27 2 45 13 48 31-16 1-31-3-45-13" fill="none" stroke="#f39635" stroke-linecap="round" stroke-width="13" />
+              <path d="M96 198v10M175 198v10" stroke="#f78b3f" stroke-linecap="round" stroke-width="8" />
+              <path d="m217 85 8-13 7 13 14 4-14 5-7 14-8-14-14-5 14-4Z" fill="#ffcc48" />
+              <circle cx="48" cy="111" r="5" fill="#9bc6d6" />
+              <circle cx="231" cy="133" r="7" fill="#f4a6a4" />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="game-shell" id="game-shell" hidden aria-live="polite">
+        <div class="game-status" id="game-status" hidden>
+          <div class="game-status-copy">
+            <strong id="game-round-label"></strong>
+            <span class="game-score" id="game-score-label"></span>
+          </div>
+          <div class="game-progress" aria-hidden="true">
+            <span id="game-progress-bar"></span>
+          </div>
+          <span class="streak-pill" id="game-streak"></span>
+        </div>
+        <div class="game-board" id="game-board"></div>
+      </section>
+
+      <section class="learning-shell" id="learning-shell" aria-live="polite">
+        <div class="section-toolbar">
+          <div class="section-heading">
+            <h2 id="section-title" data-i18n="alphabetHeading">Bảng chữ cái</h2>
+            <p id="section-subtitle" data-i18n="alphabetSubtitle">26 chữ cái để bé khám phá</p>
+          </div>
+
+          <div class="toolbar-actions" id="letters-actions">
+            <span class="lesson-count" id="letter-count">
+              <span aria-hidden="true">✨</span>
+              <span data-i18n="letterCount">26 chữ cái</span>
+            </span>
+          </div>
+
+          <div class="animal-actions" id="animal-actions" hidden>
+            <label class="search-box" for="animal-search">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" />
+              </svg>
+              <input
+                id="animal-search"
+                type="search"
+                autocomplete="off"
+                data-i18n-placeholder="searchPlaceholder"
+                placeholder="Tìm con vật..."
+              />
+            </label>
+            <button class="surprise-button" id="random-animal" type="button">
+              <span aria-hidden="true">🎲</span>
+              <span data-i18n="randomAnimal">Chọn ngẫu nhiên</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="category-filters" id="category-filters" hidden>
+          <button class="filter-chip active" type="button" data-category="all" aria-pressed="true">
+            <span data-i18n="categoryAll">Tất cả</span>
+            <span class="chip-count">0</span>
+          </button>
+          <button class="filter-chip" type="button" data-category="pets" aria-pressed="false">
+            <span aria-hidden="true">🏡</span>
+            <span data-i18n="categoryPets">Vật nuôi</span>
+            <span class="chip-count">0</span>
+          </button>
+          <button class="filter-chip" type="button" data-category="farm" aria-pressed="false">
+            <span aria-hidden="true">🌾</span>
+            <span data-i18n="categoryFarm">Nông trại</span>
+            <span class="chip-count">0</span>
+          </button>
+          <button class="filter-chip" type="button" data-category="wild" aria-pressed="false">
+            <span aria-hidden="true">🌳</span>
+            <span data-i18n="categoryWild">Hoang dã</span>
+            <span class="chip-count">0</span>
+          </button>
+          <button class="filter-chip" type="button" data-category="birds" aria-pressed="false">
+            <span aria-hidden="true">🪶</span>
+            <span data-i18n="categoryBirds">Loài chim</span>
+            <span class="chip-count">0</span>
+          </button>
+          <button class="filter-chip" type="button" data-category="sea" aria-pressed="false">
+            <span aria-hidden="true">🌊</span>
+            <span data-i18n="categorySea">Dưới biển</span>
+            <span class="chip-count">0</span>
+          </button>
+          <button class="filter-chip" type="button" data-category="bugs" aria-pressed="false">
+            <span aria-hidden="true">🍃</span>
+            <span data-i18n="categoryBugs">Bọ và côn trùng</span>
+            <span class="chip-count">0</span>
+          </button>
+          <button class="filter-chip" type="button" data-category="dinosaurs" aria-pressed="false">
+            <span aria-hidden="true">🦴</span>
+            <span data-i18n="categoryDinosaurs">Khủng long</span>
+            <span class="chip-count">0</span>
+          </button>
+        </div>
+
+        <div class="card-grid" id="lesson-grid"></div>
+
+        <div class="empty-state" id="empty-state" hidden>
+          <div class="empty-face" aria-hidden="true">🔎</div>
+          <h3 data-i18n="emptyTitle">Chưa tìm thấy con vật này</h3>
+          <p data-i18n="emptyText">Bé thử tên khác hoặc chọn “Tất cả” nhé!</p>
+          <button class="secondary-button" id="clear-search" type="button" data-i18n="clearSearch">
+            Xóa tìm kiếm
+          </button>
+        </div>
+      </section>
+
+      <section class="learning-tip" aria-label="Mẹo học tập">
+        <div class="tip-illustration" aria-hidden="true">🌱</div>
+        <div>
+          <strong data-i18n="parentTipTitle">Mẹo nhỏ cho ba mẹ</strong>
+          <p data-i18n="parentTipText">
+            Hãy để bé vừa nghe vừa nhắc lại. Mỗi ngày chỉ cần 5–10 phút là bé đã học được rất nhiều!
+          </p>
+        </div>
+        <span class="tip-flower" aria-hidden="true">🌼</span>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <span aria-hidden="true">⭐</span>
+        <span data-i18n="footerTitle">Mỗi ngày một chút, bé lớn thêm một chút!</span>
+      </div>
+      <p data-i18n="footerText">Bé Học Vui · Ứng dụng học tập cho trẻ nhỏ</p>
+      <p class="credits">
+        <a href="credits.html">Nguồn ảnh và âm thanh</a>
+      </p>
+      <div class="install-area">
+        <button class="install-button" id="install-app" type="button" aria-expanded="false">
+          <span aria-hidden="true">＋</span>
+          <span data-i18n="installApp">Cài Bé Học Vui</span>
+        </button>
+        <p class="install-help" id="install-help" hidden></p>
+      </div>
+    </footer>
+
+    <div class="toast" id="speech-toast" role="status" aria-live="polite" aria-atomic="true">
+      <span class="toast-icon" aria-hidden="true">🔊</span>
+      <span class="toast-copy">
+        <small data-i18n="nowPlaying">Đang đọc</small>
+        <strong id="toast-text"></strong>
+      </span>
+      <button class="toast-close" id="toast-close" type="button" aria-label="Đóng">×</button>
+    </div>
+
+    <script src="assets/animal-media.js?v=13"></script>
+    <script src="app.js?v=13"></script>
+  </body>
+</html>
