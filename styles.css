@@ -1955,8 +1955,6 @@ main {
 
 .letter-mark {
   display: flex;
-  position: relative;
-  z-index: 1;
   align-items: baseline;
   justify-content: center;
   margin: 0;
@@ -1964,6 +1962,28 @@ main {
   font-family: var(--font-display);
   font-weight: 800;
   line-height: 1;
+}
+
+.letter-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.letter-phonetic {
+  padding: 3px 8px 2px;
+  color: var(--letter-color, #49775e);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 7px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .letter-upper {

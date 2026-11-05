@@ -128,6 +128,8 @@ const creditsHtml = `<!doctype html>
     <thead><tr><th>Mã</th><th>Tệp âm thanh</th><th>Tác giả</th><th>Giấy phép</th><th>Nguồn</th></tr></thead>
     <tbody>${soundRows || '<tr><td colspan="5">Chưa có dữ liệu âm thanh.</td></tr>'}</tbody>
   </table></div>
+  <h2>Giọng đọc</h2>
+  <p>Giọng đọc được tạo bằng <a href="https://github.com/OHF-Voice/piper1-gpl">Piper TTS</a> với model <a href="https://huggingface.co/rhasspy/piper-voices">Vietnamese vais1000 và English Lessac</a>.</p>
 </body>
 </html>`;
 

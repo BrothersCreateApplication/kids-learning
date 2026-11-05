@@ -643,10 +643,14 @@ function cardStyle(palette) {
 function renderLetters() {
   grid.className = "card-grid letter-grid";
   grid.innerHTML = LETTERS.map((item, index) => {
+    const spokenName =
+      state.language === "vi"
+        ? VI_LETTER_NAMES[item.letter]
+        : EN_LETTER_NAMES[item.letter];
     const label =
       state.language === "vi"
-        ? `Chữ ${VI_LETTER_NAMES[item.letter]}`
-        : `Letter ${item.letter}`;
+        ? `Chữ ${spokenName}`
+        : `${item.letter}. ${spokenName}`;
     return `
       <button
         class="learning-card letter-card"
@@ -657,8 +661,11 @@ function renderLetters() {
         aria-label="${label}"
       >
         ${speakerIcon()}
-        <span class="letter-mark" aria-hidden="true">
-          <span class="letter-upper">${item.letter}</span>
+        <span class="letter-content" aria-hidden="true">
+          <span class="letter-mark">
+            <span class="letter-upper">${item.letter}</span>
+          </span>
+          <span class="letter-phonetic">${spokenName}</span>
         </span>
       </button>`;
   }).join("");
@@ -908,13 +915,13 @@ function stopSpeaking() {
 
 function voiceClipPath(type, id) {
   if (type === "letter") {
-    return `assets/audio/letters/${id.toLowerCase()}-${state.language}.mp3?v=5`;
+    return `assets/audio/letters/${id.toLowerCase()}-${state.language}.mp3?v=6`;
   }
   if (type === "number") {
-    return `assets/audio/numbers/${id}-${state.language}.mp3?v=5`;
+    return `assets/audio/numbers/${id}-${state.language}.mp3?v=6`;
   }
   if (type === "animal") {
-    return `assets/audio/animals/${id}-${state.language}.mp3?v=5`;
+    return `assets/audio/animals/${id}-${state.language}.mp3?v=6`;
   }
   return "";
 }
