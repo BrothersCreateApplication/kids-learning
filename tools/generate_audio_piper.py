@@ -60,7 +60,7 @@ def main():
         "vi": PiperVoice.load(MODELS["vi"]),
         "en": PiperVoice.load(MODELS["en"]),
     }
-    length_scales = {"vi": 1.06, "en": 1.02}
+    length_scales = {"vi": 1.16, "en": 1.08}
     temp_dir = Path(os.environ["TEMP"]) / "be-hoc-vui-piper"
     temp_dir.mkdir(parents=True, exist_ok=True)
     generated = 0
@@ -76,6 +76,7 @@ def main():
         wav_path = temp_dir / f"{destination.stem}.wav"
         write_wav(voices[language], clip["text"], wav_path, length_scales[language])
         destination.parent.mkdir(parents=True, exist_ok=True)
+        temporary_mp3 = destination.with_suffix(".new.mp3")
         subprocess.run(
             [
                 "ffmpeg",
@@ -85,14 +86,17 @@ def main():
                 "-y",
                 "-i",
                 str(wav_path),
+                "-af",
+                "atempo=0.9",
                 "-codec:a",
                 "libmp3lame",
                 "-b:a",
                 "128k",
-                str(destination),
+                str(temporary_mp3),
             ],
             check=True,
         )
+        temporary_mp3.replace(destination)
         wav_path.unlink(missing_ok=True)
         generated += 1
         if generated % 20 == 0:

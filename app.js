@@ -915,13 +915,13 @@ function stopSpeaking() {
 
 function voiceClipPath(type, id) {
   if (type === "letter") {
-    return `assets/audio/letters/${id.toLowerCase()}-${state.language}.mp3?v=6`;
+    return `assets/audio/letters/${id.toLowerCase()}-${state.language}.mp3?v=8`;
   }
   if (type === "number") {
-    return `assets/audio/numbers/${id}-${state.language}.mp3?v=6`;
+    return `assets/audio/numbers/${id}-${state.language}.mp3?v=8`;
   }
   if (type === "animal") {
-    return `assets/audio/animals/${id}-${state.language}.mp3?v=6`;
+    return `assets/audio/animals/${id}-${state.language}.mp3?v=8`;
   }
   return "";
 }

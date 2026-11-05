@@ -1,5 +1,8 @@
 import json
+import os
+import argparse
 import subprocess
+import time
 from pathlib import Path
 
 
@@ -12,6 +15,9 @@ def load_json(path):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--force", action="store_true")
+    args = parser.parse_args()
     animals = load_json(ROOT / "tools" / "lesson-data.json")["ANIMALS"]
     wikimedia_sounds = load_json(ROOT / "tools" / "animal-sound-manifest.json")
     freesound_sounds = load_json(ROOT / "tools" / "freesound-manifest.json")
@@ -32,6 +38,8 @@ def main():
                 continue
             destination = OUTPUT / f"{animal['id']}-{language}.mp3"
             if (
+                not args.force
+                and
                 destination.exists()
                 and destination.stat().st_mtime
                 >= max(voice_path.stat().st_mtime, sound_path.stat().st_mtime)
@@ -58,7 +66,7 @@ def main():
                 "-f",
                 "lavfi",
                 "-t",
-                "0.16",
+                "0.35",
                 "-i",
                 "anullsrc=r=44100:cl=stereo",
                 "-i",
@@ -69,9 +77,18 @@ def main():
                 "[out]",
                 "-b:a",
                 "128k",
-                str(destination),
+                str(destination.with_suffix(".new.mp3")),
             ]
             subprocess.run(command, check=True)
+            temporary = destination.with_suffix(".new.mp3")
+            for attempt in range(5):
+                try:
+                    os.replace(temporary, destination)
+                    break
+                except PermissionError:
+                    if attempt == 4:
+                        raise
+                    time.sleep(0.4)
             built += 1
             if built % 20 == 0:
                 print(f"Built {built} combined animal clips...", flush=True)
