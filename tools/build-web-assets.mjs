@@ -129,7 +129,7 @@ const creditsHtml = `<!doctype html>
     <tbody>${soundRows || '<tr><td colspan="5">Chưa có dữ liệu âm thanh.</td></tr>'}</tbody>
   </table></div>
   <h2>Giọng đọc</h2>
-  <p>Giọng đọc được tạo bằng <a href="https://github.com/OHF-Voice/piper1-gpl">Piper TTS</a> với model <a href="https://huggingface.co/rhasspy/piper-voices">Vietnamese vais1000 và English Lessac</a>.</p>
+  <p>Tiếng Việt dùng <a href="https://github.com/pnnbao97/VieNeu-TTS">VieNeu-TTS</a> với giọng Mỹ Duyên. Tiếng Anh dùng Microsoft Edge Neural TTS với giọng Aria.</p>
 </body>
 </html>`;
 

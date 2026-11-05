@@ -28,7 +28,7 @@ Web học tập song ngữ dành cho trẻ nhỏ, chạy hoàn toàn cục bộ 
 - Số hình lựa chọn tăng dần từ 2 lên 3 và 4; bấm sai có thể nghe lại và chọn tiếp.
 - Xếp hạng sao và kỷ lục được lưu trên thiết bị.
 
-Giọng đọc neural được tạo bằng Piper TTS và lưu trong `assets/audio`, vì vậy tiếng Việt vẫn hoạt động trên máy chưa cài giọng đọc tiếng Việt. Nguồn ảnh, tiếng kêu và giấy phép có tại [credits.html](credits.html).
+Giọng đọc được tạo bằng VieNeu-TTS (tiếng Việt) và Microsoft Edge Neural TTS (tiếng Anh), sau đó lưu trong `assets/audio`, vì vậy vẫn hoạt động trên máy chưa cài giọng đọc tiếng Việt. Nguồn ảnh, tiếng kêu và giấy phép có tại [credits.html](credits.html).
 
 ## Cài như ứng dụng
 

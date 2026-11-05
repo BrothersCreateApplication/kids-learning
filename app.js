@@ -915,13 +915,13 @@ function stopSpeaking() {
 
 function voiceClipPath(type, id) {
   if (type === "letter") {
-    return `assets/audio/letters/${id.toLowerCase()}-${state.language}.mp3?v=8`;
+    return `assets/audio/letters/${id.toLowerCase()}-${state.language}.mp3?v=9`;
   }
   if (type === "number") {
-    return `assets/audio/numbers/${id}-${state.language}.mp3?v=8`;
+    return `assets/audio/numbers/${id}-${state.language}.mp3?v=9`;
   }
   if (type === "animal") {
-    return `assets/audio/animals/${id}-${state.language}.mp3?v=8`;
+    return `assets/audio/animals/${id}-${state.language}.mp3?v=9`;
   }
   return "";
 }
@@ -998,7 +998,10 @@ async function playSources(sources, text, card) {
   stopSpeaking();
   const token = ++playbackToken;
   const copy = COPY[state.language];
-  const [voiceSource, ...effectSources] = sources;
+  const versionedSources = sources.map((source) =>
+    source?.includes("/animal-cards/") ? `${source}?v=3` : source,
+  );
+  const [voiceSource, ...effectSources] = versionedSources;
 
   activeCard = card || null;
   if (card) card.classList.add("is-speaking", "is-acting");
