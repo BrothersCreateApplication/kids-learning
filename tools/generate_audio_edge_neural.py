@@ -26,6 +26,8 @@ def clip_group(clip):
         section = "letters"
     elif "/numbers/" in clip["path"]:
         section = "numbers"
+    elif "/vehicles/" in clip["path"]:
+        section = "vehicles"
     else:
         section = "animals"
     return language, section
@@ -97,8 +99,15 @@ async def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--section", default="")
     parser.add_argument("--language", choices=("vi", "en"), default="")
+    parser.add_argument("--missing", action="store_true")
     args = parser.parse_args()
     clips = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    if args.missing:
+        clips = [
+            clip
+            for clip in clips
+            if not (ROOT / clip["path"]).resolve().exists()
+        ]
     grouped = {}
     for clip in clips:
         grouped.setdefault(clip_group(clip), []).append(clip)

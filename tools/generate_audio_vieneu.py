@@ -1,4 +1,5 @@
 import json
+import argparse
 import subprocess
 import sys
 from pathlib import Path
@@ -41,12 +42,24 @@ def write_mp3(audio, sample_rate, destination):
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--section", default="")
+    parser.add_argument("--missing", action="store_true")
+    args = parser.parse_args()
     TEMP_DIR.mkdir(parents=True, exist_ok=True)
     clips = [
         clip
         for clip in json.loads(MANIFEST.read_text(encoding="utf-8"))
         if clip["voice"].startswith("vi-")
     ]
+    if args.section:
+        clips = [clip for clip in clips if f"/{args.section}/" in clip["path"]]
+    if args.missing:
+        clips = [
+            clip
+            for clip in clips
+            if not (ROOT / clip["path"]).resolve().exists()
+        ]
     tts = Vieneu(mode="v3nano")
     generated = 0
 

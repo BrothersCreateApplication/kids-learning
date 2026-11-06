@@ -9,11 +9,11 @@ const context = {};
 vm.createContext(context);
 vm.runInContext(
   `${dataSource}
-  globalThis.lessonData = { LETTERS, NUMBER_WORDS, ANIMALS, VI_LETTER_NAMES, EN_LETTER_NAMES };`,
+  globalThis.lessonData = { LETTERS, NUMBER_WORDS, ANIMALS, VEHICLES, VI_LETTER_NAMES, EN_LETTER_NAMES };`,
   context,
 );
 
-const { LETTERS, NUMBER_WORDS, ANIMALS, VI_LETTER_NAMES, EN_LETTER_NAMES } =
+const { LETTERS, NUMBER_WORDS, ANIMALS, VEHICLES, VI_LETTER_NAMES, EN_LETTER_NAMES } =
   context.lessonData;
 
 const clips = [];
@@ -54,6 +54,19 @@ for (const animal of ANIMALS) {
   clips.push({
     path: `assets/audio/animals/${animal.id}-en.mp3`,
     text: `${animal.en.charAt(0).toUpperCase()}${animal.en.slice(1)}.`,
+    voice: "en-GB-SoniaNeural",
+  });
+}
+
+for (const vehicle of VEHICLES) {
+  clips.push({
+    path: `assets/audio/vehicles/${vehicle.id}-vi.mp3`,
+    text: `${vehicle.vi.charAt(0).toUpperCase()}${vehicle.vi.slice(1)}.`,
+    voice: "vi-VN-HoaiMyNeural",
+  });
+  clips.push({
+    path: `assets/audio/vehicles/${vehicle.id}-en.mp3`,
+    text: `${vehicle.en.charAt(0).toUpperCase()}${vehicle.en.slice(1)}.`,
     voice: "en-GB-SoniaNeural",
   });
 }

@@ -3,6 +3,11 @@ import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
 const photoManifestPath = path.join(root, "tools", "animal-photo-manifest.json");
+const vehiclePhotoManifestPath = path.join(
+  root,
+  "tools",
+  "vehicle-photo-manifest.json",
+);
 const wikimediaSoundManifestPath = path.join(
   root,
   "tools",
@@ -18,6 +23,7 @@ const freesoundManifestExists = await fs
   .then(() => true)
   .catch(() => false);
 const photos = JSON.parse(await fs.readFile(photoManifestPath, "utf8"));
+const vehiclePhotos = JSON.parse(await fs.readFile(vehiclePhotoManifestPath, "utf8"));
 const wikimediaSounds = soundManifestExists
   ? JSON.parse(await fs.readFile(wikimediaSoundManifestPath, "utf8"))
   : {};
@@ -64,6 +70,20 @@ await fs.writeFile(
   mediaScript,
   "utf8",
 );
+const vehicleMediaScript = `window.VEHICLE_MEDIA = ${JSON.stringify(
+  {
+    photos: Object.fromEntries(
+      Object.entries(vehiclePhotos).map(([id, item]) => [id, item.file]),
+    ),
+  },
+  null,
+  2,
+)};\n`;
+await fs.writeFile(
+  path.join(root, "assets", "vehicle-media.js"),
+  vehicleMediaScript,
+  "utf8",
+);
 
 const escapeHtml = (value = "") =>
   String(value)
@@ -73,6 +93,19 @@ const escapeHtml = (value = "") =>
     .replaceAll('"', "&quot;");
 
 const photoRows = Object.entries(photos)
+  .map(
+    ([id, item]) => `
+      <tr>
+        <td>${escapeHtml(id)}</td>
+        <td>${escapeHtml(item.title)}</td>
+        <td>${escapeHtml(item.artist || "Wikimedia contributors")}</td>
+        <td>${escapeHtml(item.license || "Xem trang nguồn")}</td>
+        <td><a href="${escapeHtml(item.source)}" target="_blank" rel="noreferrer">Nguồn ảnh</a></td>
+      </tr>`,
+  )
+  .join("");
+
+const vehicleRows = Object.entries(vehiclePhotos)
   .map(
     ([id, item]) => `
       <tr>
@@ -123,6 +156,11 @@ const creditsHtml = `<!doctype html>
     <thead><tr><th>Mã</th><th>Tệp / chủ đề</th><th>Tác giả</th><th>Giấy phép</th><th>Nguồn</th></tr></thead>
     <tbody>${photoRows}</tbody>
   </table></div>
+  <h2>Phương tiện</h2>
+  <div class="wrap"><table>
+    <thead><tr><th>Mã</th><th>Tệp / chủ đề</th><th>Tác giả</th><th>Giấy phép</th><th>Nguồn</th></tr></thead>
+    <tbody>${vehicleRows}</tbody>
+  </table></div>
   <h2>Tiếng kêu động vật</h2>
   <div class="wrap"><table>
     <thead><tr><th>Mã</th><th>Tệp âm thanh</th><th>Tác giả</th><th>Giấy phép</th><th>Nguồn</th></tr></thead>
@@ -135,6 +173,7 @@ const creditsHtml = `<!doctype html>
 
 await fs.writeFile(path.join(root, "credits.html"), creditsHtml, "utf8");
 console.log(
-  `Built media map (${Object.keys(media.photos).length} photos, ` +
+  `Built media maps (${Object.keys(media.photos).length} animal photos, ` +
+    `${Object.keys(vehiclePhotos).length} vehicle photos, ` +
     `${Object.keys(media.sounds).length} sounds) and credits page.`,
 );

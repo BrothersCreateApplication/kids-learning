@@ -20,11 +20,12 @@ Web học tập song ngữ dành cho trẻ nhỏ, chạy hoàn toàn cục bộ 
 - 26 thẻ chữ cái, không kèm hình minh họa.
 - 21 thẻ học số từ 0 đến 20.
 - 93 động vật với ảnh chụp thực tế; loài đã tuyệt chủng dùng ảnh mô hình phục dựng.
+- 26 loại phương tiện quen thuộc với ảnh thật và tên song ngữ.
 - 58 động vật có bản ghi tiếng kêu.
 - Chuyển đổi giữa tiếng Việt và tiếng Anh.
 - Bấm vào động vật để nghe tên, nghe tiếng kêu và xem hoạt ảnh mô tả hành động.
 - Tìm kiếm và lọc động vật theo nhóm.
-- Trò chơi 6 câu dành cho bé 3 tuổi: nghe tiếng kêu rồi bấm vào đúng con vật.
+- Trò chơi 6 câu dành cho bé 3 tuổi: nghe tiếng kêu rồi bấm vào đúng con vật. Câu hỏi chỉ dùng các con vật quen thuộc như chó, mèo, gà, bò, vịt, heo, sư tử, voi, hổ và chim.
 - Số hình lựa chọn tăng dần từ 2 lên 3 và 4; bấm sai có thể nghe lại và chọn tiếp.
 - Xếp hạng sao và kỷ lục được lưu trên thiết bị.
 

@@ -1,0 +1,30 @@
+window.VEHICLE_MEDIA = {
+  "photos": {
+    "car": "assets/vehicle-photos/car.webp",
+    "bicycle": "assets/vehicle-photos/bicycle.webp",
+    "motorcycle": "assets/vehicle-photos/motorcycle.webp",
+    "bus": "assets/vehicle-photos/bus.webp",
+    "truck": "assets/vehicle-photos/truck.webp",
+    "train": "assets/vehicle-photos/train.webp",
+    "airplane": "assets/vehicle-photos/airplane.webp",
+    "helicopter": "assets/vehicle-photos/helicopter.webp",
+    "boat": "assets/vehicle-photos/boat.webp",
+    "ship": "assets/vehicle-photos/ship.webp",
+    "sailboat": "assets/vehicle-photos/sailboat.webp",
+    "ambulance": "assets/vehicle-photos/ambulance.webp",
+    "fire-engine": "assets/vehicle-photos/fire-engine.webp",
+    "police-car": "assets/vehicle-photos/police-car.webp",
+    "taxi": "assets/vehicle-photos/taxi.webp",
+    "school-bus": "assets/vehicle-photos/school-bus.webp",
+    "tractor": "assets/vehicle-photos/tractor.webp",
+    "excavator": "assets/vehicle-photos/excavator.webp",
+    "rocket": "assets/vehicle-photos/rocket.webp",
+    "submarine": "assets/vehicle-photos/submarine.webp",
+    "tram": "assets/vehicle-photos/tram.webp",
+    "crane": "assets/vehicle-photos/crane.webp",
+    "hot-air-balloon": "assets/vehicle-photos/hot-air-balloon.webp",
+    "road-roller": "assets/vehicle-photos/road-roller.webp",
+    "container-truck": "assets/vehicle-photos/container-truck.webp",
+    "dump-truck": "assets/vehicle-photos/dump-truck.webp"
+  }
+};

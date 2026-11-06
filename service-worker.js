@@ -1,10 +1,11 @@
-const CACHE_NAME = "be-hoc-vui-v7";
+const CACHE_NAME = "be-hoc-vui-v10";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
   "./assets/animal-media.js",
+  "./assets/vehicle-media.js",
   "./manifest.webmanifest",
   "./credits.html",
   "./assets/brand/icon-192.png",

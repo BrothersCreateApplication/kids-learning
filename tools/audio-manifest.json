@@ -1398,5 +1398,265 @@
     "path": "assets/audio/animals/brachiosaurus-en.mp3",
     "text": "Brachiosaurus.",
     "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/car-vi.mp3",
+    "text": "Xe ô tô.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/car-en.mp3",
+    "text": "Car.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/bicycle-vi.mp3",
+    "text": "Xe đạp.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/bicycle-en.mp3",
+    "text": "Bicycle.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/motorcycle-vi.mp3",
+    "text": "Xe máy.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/motorcycle-en.mp3",
+    "text": "Motorcycle.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/bus-vi.mp3",
+    "text": "Xe buýt.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/bus-en.mp3",
+    "text": "Bus.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/truck-vi.mp3",
+    "text": "Xe tải.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/truck-en.mp3",
+    "text": "Truck.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/train-vi.mp3",
+    "text": "Tàu hỏa.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/train-en.mp3",
+    "text": "Train.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/airplane-vi.mp3",
+    "text": "Máy bay.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/airplane-en.mp3",
+    "text": "Airplane.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/helicopter-vi.mp3",
+    "text": "Trực thăng.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/helicopter-en.mp3",
+    "text": "Helicopter.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/boat-vi.mp3",
+    "text": "Thuyền.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/boat-en.mp3",
+    "text": "Boat.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/ship-vi.mp3",
+    "text": "Tàu thủy.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/ship-en.mp3",
+    "text": "Ship.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/sailboat-vi.mp3",
+    "text": "Thuyền buồm.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/sailboat-en.mp3",
+    "text": "Sailboat.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/ambulance-vi.mp3",
+    "text": "Xe cứu thương.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/ambulance-en.mp3",
+    "text": "Ambulance.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/fire-engine-vi.mp3",
+    "text": "Xe cứu hỏa.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/fire-engine-en.mp3",
+    "text": "Fire engine.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/police-car-vi.mp3",
+    "text": "Xe cảnh sát.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/police-car-en.mp3",
+    "text": "Police car.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/taxi-vi.mp3",
+    "text": "Xe taxi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/taxi-en.mp3",
+    "text": "Taxi.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/school-bus-vi.mp3",
+    "text": "Xe buýt trường học.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/school-bus-en.mp3",
+    "text": "School bus.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/tractor-vi.mp3",
+    "text": "Máy kéo.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/tractor-en.mp3",
+    "text": "Tractor.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/excavator-vi.mp3",
+    "text": "Máy xúc.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/excavator-en.mp3",
+    "text": "Excavator.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/rocket-vi.mp3",
+    "text": "Tên lửa.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/rocket-en.mp3",
+    "text": "Rocket.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/submarine-vi.mp3",
+    "text": "Tàu ngầm.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/submarine-en.mp3",
+    "text": "Submarine.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/tram-vi.mp3",
+    "text": "Tàu điện.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/tram-en.mp3",
+    "text": "Tram.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/crane-vi.mp3",
+    "text": "Xe cần cẩu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/crane-en.mp3",
+    "text": "Crane.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/hot-air-balloon-vi.mp3",
+    "text": "Khinh khí cầu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/hot-air-balloon-en.mp3",
+    "text": "Hot air balloon.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/road-roller-vi.mp3",
+    "text": "Xe lu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/road-roller-en.mp3",
+    "text": "Road roller.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/container-truck-vi.mp3",
+    "text": "Xe container.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/container-truck-en.mp3",
+    "text": "Container truck.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/dump-truck-vi.mp3",
+    "text": "Xe ben đất.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/vehicles/dump-truck-en.mp3",
+    "text": "Dump truck.",
+    "voice": "en-GB-SoniaNeural"
   }
 ]

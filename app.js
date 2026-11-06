@@ -163,11 +163,41 @@ const ANIMALS = [
   { id: "brachiosaurus", emoji: "🦕", vi: "khủng long cổ dài", en: "brachiosaurus", category: "dinosaurs" },
 ];
 
+const VEHICLES = [
+  { id: "car", emoji: "🚗", vi: "xe ô tô", en: "car" },
+  { id: "bicycle", emoji: "🚲", vi: "xe đạp", en: "bicycle" },
+  { id: "motorcycle", emoji: "🏍️", vi: "xe máy", en: "motorcycle" },
+  { id: "bus", emoji: "🚌", vi: "xe buýt", en: "bus" },
+  { id: "truck", emoji: "🚚", vi: "xe tải", en: "truck" },
+  { id: "train", emoji: "🚆", vi: "tàu hỏa", en: "train" },
+  { id: "airplane", emoji: "✈️", vi: "máy bay", en: "airplane" },
+  { id: "helicopter", emoji: "🚁", vi: "trực thăng", en: "helicopter" },
+  { id: "boat", emoji: "⛵", vi: "thuyền", en: "boat" },
+  { id: "ship", emoji: "🚢", vi: "tàu thủy", en: "ship" },
+  { id: "sailboat", emoji: "⛵", vi: "thuyền buồm", en: "sailboat" },
+  { id: "ambulance", emoji: "🚑", vi: "xe cứu thương", en: "ambulance" },
+  { id: "fire-engine", emoji: "🚒", vi: "xe cứu hỏa", en: "fire engine" },
+  { id: "police-car", emoji: "🚓", vi: "xe cảnh sát", en: "police car" },
+  { id: "taxi", emoji: "🚕", vi: "xe taxi", en: "taxi" },
+  { id: "school-bus", emoji: "🚌", vi: "xe buýt trường học", en: "school bus" },
+  { id: "tractor", emoji: "🚜", vi: "máy kéo", en: "tractor" },
+  { id: "excavator", emoji: "🚜", vi: "máy xúc", en: "excavator" },
+  { id: "rocket", emoji: "🚀", vi: "tên lửa", en: "rocket" },
+  { id: "submarine", emoji: "🚢", vi: "tàu ngầm", en: "submarine" },
+  { id: "tram", emoji: "🚊", vi: "tàu điện", en: "tram" },
+  { id: "crane", emoji: "🏗️", vi: "xe cần cẩu", en: "crane" },
+  { id: "hot-air-balloon", emoji: "🎈", vi: "khinh khí cầu", en: "hot air balloon" },
+  { id: "road-roller", emoji: "🚜", vi: "xe lu", en: "road roller" },
+  { id: "container-truck", emoji: "🚛", vi: "xe container", en: "container truck" },
+  { id: "dump-truck", emoji: "🚛", vi: "xe ben đất", en: "dump truck" },
+];
+
 const COPY = {
   vi: {
     navLetters: "Chữ cái",
     navNumbers: "Học số",
     navAnimals: "Con vật",
+    navVehicles: "Xe cộ",
     navGames: "Trò chơi",
     heroEyebrow: "Vừa học vừa chơi",
     tapTip: "Chạm vào thẻ bất kỳ để nghe",
@@ -176,6 +206,7 @@ const COPY = {
     letterCount: `${LETTERS.length} chữ cái`,
     numberCount: `${NUMBER_WORDS.vi.length} con số`,
     animalCount: `${ANIMALS.length} con vật`,
+    vehicleCount: `${VEHICLES.length} loại xe`,
     searchPlaceholder: "Tìm con vật...",
     randomAnimal: "Chọn ngẫu nhiên",
     categoryAll: "Tất cả",
@@ -211,6 +242,11 @@ const COPY = {
     animalsHeading: "Khám phá con vật",
     animalSubtitle: (count) => `${count} con vật để bé khám phá`,
     animalsSubtitle: `${ANIMALS.length} con vật để bé khám phá`,
+    vehiclesTitle: "Bé học xe cộ",
+    vehiclesDescription:
+      "Cùng bé nhận biết xe ô tô, xe buýt, tàu hỏa, máy bay và nhiều phương tiện quen thuộc khác.",
+    vehiclesHeading: "Các loại xe",
+    vehiclesSubtitle: `${VEHICLES.length} phương tiện để bé khám phá`,
     gamesTitle: "Nghe tiếng, chọn con vật",
     gamesDescription:
       "Nghe tiếng kêu rồi bấm vào hình đúng. Bắt đầu với 2 hình thật dễ, sau đó tăng dần lên 3 và 4 hình.",
@@ -260,6 +296,7 @@ const COPY = {
     navLetters: "Letters",
     navNumbers: "Numbers",
     navAnimals: "Animals",
+    navVehicles: "Vehicles",
     navGames: "Games",
     heroEyebrow: "Learn & play",
     tapTip: "Tap any card to hear it",
@@ -268,6 +305,7 @@ const COPY = {
     letterCount: `${LETTERS.length} letters`,
     numberCount: `${NUMBER_WORDS.en.length} numbers`,
     animalCount: `${ANIMALS.length} animals`,
+    vehicleCount: `${VEHICLES.length} vehicles`,
     searchPlaceholder: "Find an animal...",
     randomAnimal: "Surprise me",
     categoryAll: "All",
@@ -303,6 +341,11 @@ const COPY = {
     animalsHeading: "Meet the animals",
     animalSubtitle: (count) => `${count} animals to discover`,
     animalsSubtitle: `${ANIMALS.length} animals to discover`,
+    vehiclesTitle: "Things that go",
+    vehiclesDescription:
+      "Learn about cars, buses, trains, planes and many other familiar vehicles together.",
+    vehiclesHeading: "Vehicles",
+    vehiclesSubtitle: `${VEHICLES.length} vehicles to discover`,
     gamesTitle: "Listen and find",
     gamesDescription:
       "Listen to a real animal sound and tap the right picture. Start with 2 big choices, then try 3 and 4 pictures.",
@@ -370,6 +413,12 @@ const MODE_CONTENT = {
     heading: "animalsHeading",
     subtitle: "animalsSubtitle",
   },
+  vehicles: {
+    title: "vehiclesTitle",
+    description: "vehiclesDescription",
+    heading: "vehiclesHeading",
+    subtitle: "vehiclesSubtitle",
+  },
   games: {
     title: "gamesTitle",
     description: "gamesDescription",
@@ -379,6 +428,7 @@ const MODE_CONTENT = {
 };
 
 const ANIMAL_MEDIA = window.ANIMAL_MEDIA || { photos: {}, sounds: {} };
+const VEHICLE_MEDIA = window.VEHICLE_MEDIA || { photos: {} };
 
 function activity(vi, en, motion, effect, callVi = "", callEn = "") {
   return { vi, en, motion, effect, callVi, callEn };
@@ -498,6 +548,42 @@ function getAnimalActivity(animal) {
   );
 }
 
+const FAMILIAR_ANIMAL_IDS = new Set([
+  "dog",
+  "cat",
+  "rabbit",
+  "chicken",
+  "cow",
+  "pig",
+  "duck",
+  "goose",
+  "goat",
+  "sheep",
+  "horse",
+  "donkey",
+  "fish",
+  "goldfish",
+  "bird",
+  "parrot",
+  "turtle",
+  "hamster",
+  "mouse",
+  "lion",
+  "tiger",
+  "elephant",
+  "giraffe",
+  "zebra",
+  "monkey",
+  "bear",
+  "wolf",
+  "fox",
+  "owl",
+  "eagle",
+  "frog",
+  "snake",
+  "panda",
+]);
+
 function fillCopy(template, values) {
   return Object.entries(values).reduce(
     (result, [key, value]) => result.replaceAll(`{${key}}`, String(value)),
@@ -609,6 +695,7 @@ function restorePreferences() {
     savedMode === "letters" ||
     savedMode === "numbers" ||
     savedMode === "animals" ||
+    savedMode === "vehicles" ||
     savedMode === "games"
   ) {
     state.mode = savedMode;
@@ -766,6 +853,41 @@ function renderAnimals() {
   sectionSubtitle.textContent = COPY[state.language].animalSubtitle(count);
 }
 
+function renderVehicles() {
+  grid.className = "card-grid vehicle-grid";
+  emptyState.hidden = true;
+  grid.innerHTML = VEHICLES.map((vehicle, index) => {
+    const name = vehicle[state.language];
+    const alternate = vehicle[state.language === "vi" ? "en" : "vi"];
+    return `
+      <button
+        class="learning-card vehicle-card"
+        type="button"
+        data-item-type="vehicle"
+        data-id="${vehicle.id}"
+        style="${cardStyle(CARD_PALETTES[index % CARD_PALETTES.length])}"
+        aria-label="${name}"
+      >
+        ${speakerIcon()}
+        <span class="vehicle-stage" aria-hidden="true">
+          <span class="vehicle-fallback">${vehicle.emoji}</span>
+          <img
+            class="vehicle-photo"
+            src="${VEHICLE_MEDIA.photos[vehicle.id] || ""}"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            draggable="false"
+          />
+        </span>
+        <span class="vehicle-copy">
+          <span class="vehicle-name">${name}</span>
+          <span class="vehicle-alt" lang="${state.language === "vi" ? "en" : "vi"}">${alternate}</span>
+        </span>
+      </button>`;
+  }).join("");
+}
+
 function updateCountBadges() {
   const counts = { all: ANIMALS.length };
   ANIMALS.forEach((animal) => {
@@ -811,6 +933,10 @@ function updateModeCopy() {
   if (state.mode === "letters") lessonCountText.textContent = copy.letterCount;
   if (state.mode === "numbers") lessonCountText.textContent = copy.numberCount;
   if (state.mode === "animals") sectionSubtitle.textContent = copy.animalsSubtitle;
+  if (state.mode === "vehicles") {
+    lessonCountText.textContent = copy.vehicleCount;
+    sectionSubtitle.textContent = copy.vehiclesSubtitle;
+  }
 
   animalActions.hidden = state.mode !== "animals";
   categoryFilters.hidden = state.mode !== "animals";
@@ -835,6 +961,7 @@ function render() {
   if (state.mode === "letters") renderLetters();
   if (state.mode === "numbers") renderNumbers();
   if (state.mode === "animals") renderAnimals();
+  if (state.mode === "vehicles") renderVehicles();
   if (state.mode === "games") renderGame();
 }
 
@@ -922,6 +1049,9 @@ function voiceClipPath(type, id) {
   }
   if (type === "animal") {
     return `assets/audio/animals/${id}-${state.language}.mp3?v=9`;
+  }
+  if (type === "vehicle") {
+    return `assets/audio/vehicles/${id}-${state.language}.mp3?v=1`;
   }
   return "";
 }
@@ -1081,6 +1211,12 @@ function teachCard(card) {
       card,
     );
   }
+  if (type === "vehicle") {
+    const vehicle = VEHICLES.find((entry) => entry.id === card.dataset.id);
+    if (!vehicle) return;
+    const spokenText = COPY[state.language].animalSpeech(vehicle[state.language]);
+    playSources([voiceClipPath("vehicle", vehicle.id)], spokenText, card);
+  }
 }
 
 function resetGameState() {
@@ -1108,16 +1244,16 @@ function chooseQuestionAnimal(type, unusedAnimals) {
 
 function buildGameQuestions() {
   const types = shuffle(GAME_TYPES);
-  const unusedAnimals = shuffle(ANIMALS);
+  const familiarAnimals = ANIMALS.filter((animal) => FAMILIAR_ANIMAL_IDS.has(animal.id));
+  const unusedAnimals = shuffle(familiarAnimals);
   return types.map((type, index) => {
     const animal = chooseQuestionAnimal(type, unusedAnimals);
     const animalIndex = unusedAnimals.findIndex((entry) => entry.id === animal.id);
     if (animalIndex >= 0) unusedAnimals.splice(animalIndex, 1);
     const optionCount = index < 2 ? 2 : index < 4 ? 3 : 4;
-    const distractors = shuffle(ANIMALS.filter((entry) => entry.id !== animal.id)).slice(
-      0,
-      optionCount - 1,
-    );
+    const distractors = shuffle(
+      familiarAnimals.filter((entry) => entry.id !== animal.id),
+    ).slice(0, optionCount - 1);
     const question = {
       type,
       animal,
@@ -1514,7 +1650,9 @@ grid.addEventListener("click", (event) => {
 grid.addEventListener(
   "error",
   (event) => {
-    if (event.target.matches(".emoji-image, .animal-photo")) event.target.remove();
+    if (event.target.matches(".emoji-image, .animal-photo, .vehicle-photo")) {
+      event.target.remove();
+    }
   },
   true,
 );

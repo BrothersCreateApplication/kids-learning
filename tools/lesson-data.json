@@ -780,33 +780,191 @@
       "category": "dinosaurs"
     }
   ],
+  "VEHICLES": [
+    {
+      "id": "car",
+      "emoji": "🚗",
+      "vi": "xe ô tô",
+      "en": "car"
+    },
+    {
+      "id": "bicycle",
+      "emoji": "🚲",
+      "vi": "xe đạp",
+      "en": "bicycle"
+    },
+    {
+      "id": "motorcycle",
+      "emoji": "🏍️",
+      "vi": "xe máy",
+      "en": "motorcycle"
+    },
+    {
+      "id": "bus",
+      "emoji": "🚌",
+      "vi": "xe buýt",
+      "en": "bus"
+    },
+    {
+      "id": "truck",
+      "emoji": "🚚",
+      "vi": "xe tải",
+      "en": "truck"
+    },
+    {
+      "id": "train",
+      "emoji": "🚆",
+      "vi": "tàu hỏa",
+      "en": "train"
+    },
+    {
+      "id": "airplane",
+      "emoji": "✈️",
+      "vi": "máy bay",
+      "en": "airplane"
+    },
+    {
+      "id": "helicopter",
+      "emoji": "🚁",
+      "vi": "trực thăng",
+      "en": "helicopter"
+    },
+    {
+      "id": "boat",
+      "emoji": "⛵",
+      "vi": "thuyền",
+      "en": "boat"
+    },
+    {
+      "id": "ship",
+      "emoji": "🚢",
+      "vi": "tàu thủy",
+      "en": "ship"
+    },
+    {
+      "id": "sailboat",
+      "emoji": "⛵",
+      "vi": "thuyền buồm",
+      "en": "sailboat"
+    },
+    {
+      "id": "ambulance",
+      "emoji": "🚑",
+      "vi": "xe cứu thương",
+      "en": "ambulance"
+    },
+    {
+      "id": "fire-engine",
+      "emoji": "🚒",
+      "vi": "xe cứu hỏa",
+      "en": "fire engine"
+    },
+    {
+      "id": "police-car",
+      "emoji": "🚓",
+      "vi": "xe cảnh sát",
+      "en": "police car"
+    },
+    {
+      "id": "taxi",
+      "emoji": "🚕",
+      "vi": "xe taxi",
+      "en": "taxi"
+    },
+    {
+      "id": "school-bus",
+      "emoji": "🚌",
+      "vi": "xe buýt trường học",
+      "en": "school bus"
+    },
+    {
+      "id": "tractor",
+      "emoji": "🚜",
+      "vi": "máy kéo",
+      "en": "tractor"
+    },
+    {
+      "id": "excavator",
+      "emoji": "🚜",
+      "vi": "máy xúc",
+      "en": "excavator"
+    },
+    {
+      "id": "rocket",
+      "emoji": "🚀",
+      "vi": "tên lửa",
+      "en": "rocket"
+    },
+    {
+      "id": "submarine",
+      "emoji": "🚢",
+      "vi": "tàu ngầm",
+      "en": "submarine"
+    },
+    {
+      "id": "tram",
+      "emoji": "🚊",
+      "vi": "tàu điện",
+      "en": "tram"
+    },
+    {
+      "id": "crane",
+      "emoji": "🏗️",
+      "vi": "xe cần cẩu",
+      "en": "crane"
+    },
+    {
+      "id": "hot-air-balloon",
+      "emoji": "🎈",
+      "vi": "khinh khí cầu",
+      "en": "hot air balloon"
+    },
+    {
+      "id": "road-roller",
+      "emoji": "🚜",
+      "vi": "xe lu",
+      "en": "road roller"
+    },
+    {
+      "id": "container-truck",
+      "emoji": "🚛",
+      "vi": "xe container",
+      "en": "container truck"
+    },
+    {
+      "id": "dump-truck",
+      "emoji": "🚛",
+      "vi": "xe ben đất",
+      "en": "dump truck"
+    }
+  ],
   "VI_LETTER_NAMES": {
-    "A": "a",
-    "B": "bê",
-    "C": "xê",
-    "D": "đê",
-    "E": "e",
-    "F": "ép-phê",
-    "G": "giê",
-    "H": "hát",
-    "I": "i",
-    "J": "giây",
-    "K": "ca",
-    "L": "e-lờ",
-    "M": "em-mờ",
-    "N": "en-nờ",
-    "O": "ô",
-    "P": "pê",
-    "Q": "quy",
-    "R": "e-rờ",
-    "S": "ét",
-    "T": "tê",
-    "U": "u",
-    "V": "vê",
-    "W": "đắp-bờ-lu",
-    "X": "ích",
-    "Y": "i-dài",
-    "Z": "dét"
+    "A": "A",
+    "B": "Bờ",
+    "C": "Cờ",
+    "D": "Dờ",
+    "E": "E",
+    "F": "Ép",
+    "G": "Gờ",
+    "H": "Hờ",
+    "I": "I",
+    "J": "Gi",
+    "K": "Ca",
+    "L": "Lờ",
+    "M": "Mờ",
+    "N": "Nờ",
+    "O": "O",
+    "P": "Pờ",
+    "Q": "Quờ",
+    "R": "Rờ",
+    "S": "Sờ",
+    "T": "Tờ",
+    "U": "U",
+    "V": "Vờ",
+    "W": "Vê kép",
+    "X": "Xờ",
+    "Y": "Y",
+    "Z": "Zét"
   },
   "EN_LETTER_NAMES": {
     "A": "ay",
