@@ -1051,7 +1051,7 @@ function voiceClipPath(type, id) {
     return `assets/audio/animals/${id}-${state.language}.mp3?v=9`;
   }
   if (type === "vehicle") {
-    return `assets/audio/vehicles/${id}-${state.language}.mp3?v=1`;
+    return `assets/audio/vehicles/${id}-${state.language}.mp3?v=2`;
   }
   return "";
 }
