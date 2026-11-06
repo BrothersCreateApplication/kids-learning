@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  min-width: 320px;
+  min-width: 0;
   margin: 0;
   color: var(--ink);
   background:
@@ -2629,7 +2629,7 @@ footer .credits a {
   background: rgba(255, 255, 255, 0.12);
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1100px) {
   .header-inner {
     flex-wrap: wrap;
     justify-content: center;
@@ -2645,11 +2645,14 @@ footer .credits a {
   }
 
   .main-nav {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     order: 3;
     width: 100%;
   }
 
   .nav-tab {
+    min-width: 0;
     flex: 1;
   }
 
@@ -2667,7 +2670,7 @@ footer .credits a {
 
   .mascot-bubble {
     top: 36px;
-    right: -3px;
+    right: 4px;
   }
 }
 
@@ -2698,12 +2701,28 @@ footer .credits a {
     border-radius: 14px 14px 14px 5px;
   }
 
+  .main-nav {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 2px;
+    padding: 4px;
+  }
+
   .nav-tab {
+    min-width: 0;
     min-height: 41px;
-    padding: 7px 5px;
-    gap: 4px;
-    font-size: 11px;
+    flex-direction: column;
+    padding: 6px 2px;
+    gap: 2px;
+    font-size: 10px;
+    line-height: 1;
     white-space: nowrap;
+  }
+
+  .nav-tab > span:last-child {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .nav-icon {
@@ -3080,26 +3099,8 @@ footer .credits a {
 }
 
 @media (max-width: 420px) {
-  .main-nav {
-    display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 2px;
-    padding: 4px;
-  }
-
   .nav-tab {
-    min-width: 0;
-    flex-direction: column;
-    padding: 5px 2px;
-    gap: 2px;
     font-size: 9px;
-    line-height: 1;
-  }
-
-  .nav-tab > span:last-child {
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .hero-copy {
