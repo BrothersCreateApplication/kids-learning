@@ -9,7 +9,7 @@ const context = {};
 vm.createContext(context);
 vm.runInContext(
   `${dataSource}
-  globalThis.lessonData = { LETTERS, NUMBER_WORDS, ANIMALS, VEHICLES, VI_LETTER_NAMES, EN_LETTER_NAMES };`,
+  globalThis.lessonData = { LETTERS, NUMBER_WORDS, ANIMALS, VEHICLES, EXPLORE_ITEMS, VI_LETTER_NAMES, EN_LETTER_NAMES };`,
   context,
 );
 

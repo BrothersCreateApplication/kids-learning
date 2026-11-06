@@ -192,12 +192,35 @@ const VEHICLES = [
   { id: "dump-truck", emoji: "🚛", vi: "xe ben đất", en: "dump truck" },
 ];
 
+const EXPLORE_ITEMS = [
+  { id: "red", kind: "color", vi: "màu đỏ", en: "red", color: "#e95555" },
+  { id: "orange", kind: "color", vi: "màu cam", en: "orange", color: "#f39a3d" },
+  { id: "yellow", kind: "color", vi: "màu vàng", en: "yellow", color: "#f5ce45" },
+  { id: "green", kind: "color", vi: "màu xanh lá", en: "green", color: "#67b97a" },
+  { id: "blue", kind: "color", vi: "màu xanh dương", en: "blue", color: "#579bdc" },
+  { id: "purple", kind: "color", vi: "màu tím", en: "purple", color: "#9a78d1" },
+  { id: "pink", kind: "color", vi: "màu hồng", en: "pink", color: "#ec8fae" },
+  { id: "brown", kind: "color", vi: "màu nâu", en: "brown", color: "#9a684a" },
+  { id: "black", kind: "color", vi: "màu đen", en: "black", color: "#38404a" },
+  { id: "white", kind: "color", vi: "màu trắng", en: "white", color: "#fffdf7" },
+  { id: "gray", kind: "color", vi: "màu xám", en: "gray", color: "#9aa3aa" },
+  { id: "circle", kind: "shape", vi: "hình tròn", en: "circle", shape: "circle" },
+  { id: "square", kind: "shape", vi: "hình vuông", en: "square", shape: "square" },
+  { id: "triangle", kind: "shape", vi: "hình tam giác", en: "triangle", shape: "triangle" },
+  { id: "rectangle", kind: "shape", vi: "hình chữ nhật", en: "rectangle", shape: "rectangle" },
+  { id: "star", kind: "shape", vi: "hình ngôi sao", en: "star", shape: "star" },
+  { id: "heart", kind: "shape", vi: "hình trái tim", en: "heart", shape: "heart" },
+  { id: "oval", kind: "shape", vi: "hình bầu dục", en: "oval", shape: "oval" },
+  { id: "diamond", kind: "shape", vi: "hình thoi", en: "diamond", shape: "diamond" },
+];
+
 const COPY = {
   vi: {
     navLetters: "Chữ cái",
     navNumbers: "Học số",
     navAnimals: "Con vật",
     navVehicles: "Xe cộ",
+    navExplore: "Khám phá",
     navGames: "Trò chơi",
     heroEyebrow: "Vừa học vừa chơi",
     tapTip: "Chạm vào thẻ bất kỳ để nghe",
@@ -207,6 +230,9 @@ const COPY = {
     numberCount: `${NUMBER_WORDS.vi.length} con số`,
     animalCount: `${ANIMALS.length} con vật`,
     vehicleCount: `${VEHICLES.length} loại xe`,
+    exploreCount: `${EXPLORE_ITEMS.length} bài khám phá`,
+    autoRead: "Tự đọc",
+    autoReadStop: "Tạm dừng",
     searchPlaceholder: "Tìm con vật...",
     randomAnimal: "Chọn ngẫu nhiên",
     categoryAll: "Tất cả",
@@ -247,16 +273,27 @@ const COPY = {
       "Cùng bé nhận biết xe ô tô, xe buýt, tàu hỏa, máy bay và nhiều phương tiện quen thuộc khác.",
     vehiclesHeading: "Các loại xe",
     vehiclesSubtitle: `${VEHICLES.length} phương tiện để bé khám phá`,
+    exploreColors: "Màu sắc",
+    exploreShapes: "Hình dạng",
+    exploreTitle: "Bé khám phá màu & hình",
+    exploreDescription:
+      "Nhìn màu sắc, nhận biết hình dạng và nghe tên thật rõ bằng tiếng Việt hoặc tiếng Anh.",
+    exploreHeading: "Màu sắc & hình dạng",
+    exploreSubtitle: `${EXPLORE_ITEMS.length} bài học nhẹ nhàng cho bé`,
     gamesTitle: "Nghe tiếng, chọn con vật",
     gamesDescription:
-      "Nghe tiếng kêu rồi bấm vào hình đúng. Bắt đầu với 2 hình thật dễ, sau đó tăng dần lên 3 và 4 hình.",
-    gamesHeading: "Nghe tiếng, chọn hình",
-    gamesSubtitle: "6 câu chơi cùng bé",
+      "Chọn trò nghe tiếng kêu hoặc tập đếm hình. Các lựa chọn to, dễ bấm và tăng độ khó từ từ.",
+    gamesHeading: "Bé chọn trò chơi",
+    gamesSubtitle: "Hai trò chơi, 6 câu mỗi lượt",
     gameStartEyebrow: "Bé đã sẵn sàng?",
-    gameStartTitle: "Nghe tiếng và chọn hình",
+    gameStartTitle: "Hôm nay bé chơi gì?",
     gameStartText:
-      "Bé chỉ cần nghe tiếng kêu rồi bấm vào con vật. Bấm sai vẫn được nghe lại và chọn tiếp!",
+      "Chọn một trò chơi bên dưới. Bé có thể nghe lại và chọn tiếp nếu chưa đúng.",
     gameTip: "Nghe tiếng rồi bấm vào con vật",
+    gameSoundTitle: "Nghe tiếng, chọn hình",
+    gameSoundText: "Nghe tiếng kêu rồi chạm vào con vật đúng.",
+    gameCountTitle: "Bé tập đếm",
+    gameCountText: "Đếm các con vật rồi chọn con số đúng.",
     startGame: "Bắt đầu chơi",
     playAgain: "Chơi lại",
     replaySound: "Nghe lại",
@@ -270,6 +307,7 @@ const COPY = {
     gameListenPrompt: "Nghe tên và chọn đúng hình",
     gamePhotoPrompt: "Nhìn hình và chọn đúng tên",
     gameCountPrompt: "Có bao nhiêu con vật?",
+    gameCountPromptSpeech: "Có bao nhiêu con vật?",
     gameLetterPrompt: "Con vật này bắt đầu bằng chữ nào?",
     gameCompleteTitle: "Hoàn thành thử thách!",
     gameCompleteText: "Bé chọn đúng {correct}/{total} câu và nhận được {score} ngôi sao.",
@@ -297,6 +335,7 @@ const COPY = {
     navNumbers: "Numbers",
     navAnimals: "Animals",
     navVehicles: "Vehicles",
+    navExplore: "Discover",
     navGames: "Games",
     heroEyebrow: "Learn & play",
     tapTip: "Tap any card to hear it",
@@ -306,6 +345,9 @@ const COPY = {
     numberCount: `${NUMBER_WORDS.en.length} numbers`,
     animalCount: `${ANIMALS.length} animals`,
     vehicleCount: `${VEHICLES.length} vehicles`,
+    exploreCount: `${EXPLORE_ITEMS.length} discovery cards`,
+    autoRead: "Auto read",
+    autoReadStop: "Pause",
     searchPlaceholder: "Find an animal...",
     randomAnimal: "Surprise me",
     categoryAll: "All",
@@ -346,16 +388,27 @@ const COPY = {
       "Learn about cars, buses, trains, planes and many other familiar vehicles together.",
     vehiclesHeading: "Vehicles",
     vehiclesSubtitle: `${VEHICLES.length} vehicles to discover`,
+    exploreColors: "Colors",
+    exploreShapes: "Shapes",
+    exploreTitle: "Colors & shapes",
+    exploreDescription:
+      "See bright colors, discover simple shapes and hear each name in Vietnamese or English.",
+    exploreHeading: "Colors & shapes",
+    exploreSubtitle: `${EXPLORE_ITEMS.length} gentle lessons for little learners`,
     gamesTitle: "Listen and find",
     gamesDescription:
-      "Listen to a real animal sound and tap the right picture. Start with 2 big choices, then try 3 and 4 pictures.",
-    gamesHeading: "Sound match",
-    gamesSubtitle: "A 6-question game",
+      "Choose a sound-matching game or a counting game. Big choices make every round easy to tap.",
+    gamesHeading: "Choose a game",
+    gamesSubtitle: "Two games, 6 questions each",
     gameStartEyebrow: "Are you ready?",
-    gameStartTitle: "Listen and tap",
+    gameStartTitle: "What shall we play?",
     gameStartText:
-      "Just listen to the animal sound and tap its picture. If you tap the wrong one, you can listen and try again!",
+      "Choose a game below. If you are not sure, listen again and keep trying!",
     gameTip: "Listen, then tap the animal",
+    gameSoundTitle: "Listen & match",
+    gameSoundText: "Hear an animal sound, then tap the right picture.",
+    gameCountTitle: "Let's count",
+    gameCountText: "Count the animals, then choose the right number.",
     startGame: "Start playing",
     playAgain: "Play again",
     replaySound: "Play again",
@@ -369,9 +422,10 @@ const COPY = {
     gameListenPrompt: "Listen to the name and choose the right picture",
     gamePhotoPrompt: "Look at the picture and choose the right name",
     gameCountPrompt: "How many animals are there?",
+    gameCountPromptSpeech: "How many animals are there?",
     gameLetterPrompt: "Which letter does this animal begin with?",
     gameCompleteTitle: "Challenge complete!",
-    gameCompleteText: "You found {correct}/{total} animals and earned {score} stars.",
+    gameCompleteText: "You answered {correct}/{total} questions correctly and earned {score} stars.",
     gameNewBest: "New high score!",
     gameResultEyebrow: "Your result",
     gameTypeSound: "Animal sound",
@@ -418,6 +472,12 @@ const MODE_CONTENT = {
     description: "vehiclesDescription",
     heading: "vehiclesHeading",
     subtitle: "vehiclesSubtitle",
+  },
+  explore: {
+    title: "exploreTitle",
+    description: "exploreDescription",
+    heading: "exploreHeading",
+    subtitle: "exploreSubtitle",
   },
   games: {
     title: "gamesTitle",
@@ -626,6 +686,7 @@ const state = {
 const GAME_TOTAL = 6;
 const GAME_TYPES = Array(GAME_TOTAL).fill("sound");
 const gameState = {
+  gameMode: "sound",
   active: false,
   finished: false,
   index: 0,
@@ -661,6 +722,9 @@ const toast = document.querySelector("#speech-toast");
 const toastText = document.querySelector("#toast-text");
 const lessonCount = document.querySelector(".lesson-count");
 const lessonCountText = lessonCount.querySelector("span:last-child");
+const autoReadButton = document.querySelector("#auto-read");
+const autoReadIcon = autoReadButton.querySelector("span:first-child");
+const autoReadLabel = autoReadButton.querySelector("span:last-child");
 
 let voices = [];
 let activeUtterance = null;
@@ -670,6 +734,9 @@ let toastTimer = null;
 let speechTimer = null;
 let playbackToken = 0;
 let installPromptEvent = null;
+let autoReadActive = false;
+let autoReadIndex = 0;
+let autoReadTimer = null;
 
 function getSavedPreference(key) {
   try {
@@ -696,6 +763,7 @@ function restorePreferences() {
     savedMode === "numbers" ||
     savedMode === "animals" ||
     savedMode === "vehicles" ||
+    savedMode === "explore" ||
     savedMode === "games"
   ) {
     state.mode = savedMode;
@@ -888,6 +956,62 @@ function renderVehicles() {
   }).join("");
 }
 
+function exploreShapeMarkup(item, index) {
+  const color = CARD_PALETTES[(index + 2) % CARD_PALETTES.length].accent;
+  const shapes = {
+    circle: '<circle cx="60" cy="60" r="44" />',
+    square: '<rect x="17" y="17" width="86" height="86" rx="12" />',
+    triangle: '<path d="M60 10 111 104H9L60 10Z" />',
+    rectangle: '<rect x="7" y="30" width="106" height="60" rx="12" />',
+    star: '<path d="m60 7 15 31 34 5-25 24 6 34-30-16-30 16 6-34-25-24 34-5L60 7Z" />',
+    heart:
+      '<path d="M60 106 18 65C-4 43 25 7 51 28l9 8 9-8c26-21 55 15 33 37L60 106Z" />',
+    oval: '<ellipse cx="60" cy="60" rx="49" ry="33" />',
+    diamond: '<path d="M60 7 112 60 60 113 8 60 60 7Z" />',
+  };
+  return `
+    <svg class="explore-shape shape-${item.shape}" viewBox="0 0 120 120" aria-hidden="true">
+      <g style="--shape-color:${color}">${shapes[item.shape]}</g>
+    </svg>`;
+}
+
+function renderExplore() {
+  grid.className = "card-grid explore-grid";
+  emptyState.hidden = true;
+  const copy = COPY[state.language];
+  grid.innerHTML = EXPLORE_ITEMS.map((item, index) => {
+    const name = item[state.language];
+    const alternate = item[state.language === "vi" ? "en" : "vi"];
+    const kindLabel = item.kind === "color" ? copy.exploreColors : copy.exploreShapes;
+    const visual =
+      item.kind === "color"
+        ? `<span class="color-blob" style="--blob-color:${item.color}">
+            <span class="color-shine"></span>
+          </span>`
+        : exploreShapeMarkup(item, index);
+    return `
+      <button
+        class="learning-card explore-card"
+        type="button"
+        data-item-type="explore"
+        data-id="${item.id}"
+        data-explore-kind="${item.kind}"
+        style="${cardStyle(CARD_PALETTES[index % CARD_PALETTES.length])}"
+        aria-label="${name}"
+      >
+        ${speakerIcon()}
+        <span class="explore-stage" aria-hidden="true">
+          <span class="explore-kind">${kindLabel}</span>
+          ${visual}
+        </span>
+        <span class="explore-copy">
+          <span class="explore-name">${name}</span>
+          <span class="explore-alt" lang="${state.language === "vi" ? "en" : "vi"}">${alternate}</span>
+        </span>
+      </button>`;
+  }).join("");
+}
+
 function updateCountBadges() {
   const counts = { all: ANIMALS.length };
   ANIMALS.forEach((animal) => {
@@ -920,6 +1044,7 @@ function updateStaticCopy() {
     button.classList.toggle("active", isActive);
     button.setAttribute("aria-pressed", String(isActive));
   });
+  updateAutoReadButton();
 }
 
 function updateModeCopy() {
@@ -937,11 +1062,16 @@ function updateModeCopy() {
     lessonCountText.textContent = copy.vehicleCount;
     sectionSubtitle.textContent = copy.vehiclesSubtitle;
   }
+  if (state.mode === "explore") {
+    lessonCountText.textContent = copy.exploreCount;
+    sectionSubtitle.textContent = copy.exploreSubtitle;
+  }
 
   animalActions.hidden = state.mode !== "animals";
   categoryFilters.hidden = state.mode !== "animals";
-  lessonCount.closest(".toolbar-actions").hidden =
-    state.mode === "animals" || state.mode === "games";
+  lessonCount.hidden = state.mode === "animals" || state.mode === "games";
+  autoReadButton.hidden = state.mode === "games";
+  document.querySelector(".toolbar-actions").hidden = state.mode === "games";
   emptyState.hidden = true;
   learningShell.hidden = state.mode === "games";
   gameShell.hidden = state.mode !== "games";
@@ -962,11 +1092,13 @@ function render() {
   if (state.mode === "numbers") renderNumbers();
   if (state.mode === "animals") renderAnimals();
   if (state.mode === "vehicles") renderVehicles();
+  if (state.mode === "explore") renderExplore();
   if (state.mode === "games") renderGame();
 }
 
 function setMode(mode) {
   if (!MODE_CONTENT[mode] || mode === state.mode) return;
+  stopAutoRead();
   if (state.mode === "games" || mode === "games") resetGameState();
   stopSpeaking();
   state.mode = mode;
@@ -978,6 +1110,7 @@ function setMode(mode) {
 
 function setLanguage(language) {
   if (!COPY[language] || language === state.language) return;
+  stopAutoRead();
   if (state.mode === "games") resetGameState();
   stopSpeaking();
   state.language = language;
@@ -1040,6 +1173,53 @@ function stopSpeaking() {
   hideToast();
 }
 
+function updateAutoReadButton() {
+  const copy = COPY[state.language];
+  autoReadButton.classList.toggle("is-running", autoReadActive);
+  autoReadButton.setAttribute("aria-pressed", String(autoReadActive));
+  autoReadIcon.textContent = autoReadActive ? "Ⅱ" : "▶";
+  autoReadLabel.textContent = autoReadActive ? copy.autoReadStop : copy.autoRead;
+}
+
+function stopAutoRead(keepSpeech = false) {
+  autoReadActive = false;
+  autoReadIndex = 0;
+  clearTimeout(autoReadTimer);
+  autoReadTimer = null;
+  updateAutoReadButton();
+  if (!keepSpeech) stopSpeaking();
+}
+
+function playNextAutoCard() {
+  if (!autoReadActive || state.mode === "games") {
+    stopAutoRead(true);
+    return;
+  }
+  const cards = [...grid.querySelectorAll(".learning-card")];
+  if (!cards.length || autoReadIndex >= cards.length) {
+    stopAutoRead(true);
+    return;
+  }
+  const card = cards[autoReadIndex];
+  autoReadIndex += 1;
+  card.scrollIntoView({ behavior: "smooth", block: "center" });
+  card.focus({ preventScroll: true });
+  teachCard(card);
+  autoReadTimer = setTimeout(playNextAutoCard, 4800);
+}
+
+function toggleAutoRead() {
+  if (autoReadActive) {
+    stopAutoRead();
+    return;
+  }
+  stopSpeaking();
+  autoReadActive = true;
+  autoReadIndex = 0;
+  updateAutoReadButton();
+  playNextAutoCard();
+}
+
 function voiceClipPath(type, id) {
   if (type === "letter") {
     return `assets/audio/letters/${id.toLowerCase()}-${state.language}.mp3?v=9`;
@@ -1052,6 +1232,12 @@ function voiceClipPath(type, id) {
   }
   if (type === "vehicle") {
     return `assets/audio/vehicles/${id}-${state.language}.mp3?v=3`;
+  }
+  if (type === "explore") {
+    return `assets/audio/explore/${id}-${state.language}.mp3?v=1`;
+  }
+  if (type === "prompt") {
+    return `assets/audio/prompts/${id}-${state.language}.mp3?v=1`;
   }
   return "";
 }
@@ -1217,11 +1403,18 @@ function teachCard(card) {
     const spokenText = COPY[state.language].animalSpeech(vehicle[state.language]);
     playSources([voiceClipPath("vehicle", vehicle.id)], spokenText, card);
   }
+  if (type === "explore") {
+    const item = EXPLORE_ITEMS.find((entry) => entry.id === card.dataset.id);
+    if (!item) return;
+    const spokenText = COPY[state.language].animalSpeech(item[state.language]);
+    playSources([voiceClipPath("explore", item.id)], spokenText, card);
+  }
 }
 
 function resetGameState() {
   clearTimeout(gameState.nextTimer);
   gameState.nextTimer = null;
+  gameState.gameMode = "sound";
   gameState.active = false;
   gameState.finished = false;
   gameState.index = 0;
@@ -1277,6 +1470,25 @@ function buildGameQuestions() {
   });
 }
 
+function buildCountGameQuestions() {
+  const familiarAnimals = shuffle(
+    ANIMALS.filter((animal) => FAMILIAR_ANIMAL_IDS.has(animal.id)),
+  );
+  const counts = [1, 2, 3, 5, 4, 1 + Math.floor(Math.random() * 5)];
+  return counts.map((count, index) => {
+    const animal = familiarAnimals[index % familiarAnimals.length];
+    const numberChoices = shuffle(
+      [1, 2, 3, 4, 5].filter((number) => number !== count),
+    ).slice(0, 2);
+    return {
+      type: "count",
+      animal,
+      count,
+      numberOptions: shuffle([count, ...numberChoices]),
+    };
+  });
+}
+
 function renderGameStart() {
   const copy = COPY[state.language];
   gameStatus.hidden = true;
@@ -1292,15 +1504,18 @@ function renderGameStart() {
         <span class="game-eyebrow">${copy.gameStartEyebrow}</span>
         <h2>${copy.gameStartTitle}</h2>
         <p>${copy.gameStartText}</p>
-        <div class="game-type-list" aria-hidden="true">
-          <span>🔊 ${copy.gameFeatureListen}</span>
-          <span>👆 ${copy.gameFeatureTap}</span>
-          <span>★ ${copy.gameFeatureStar}</span>
+        <div class="game-mode-grid">
+          <button class="game-mode-button game-mode-sound" type="button" data-game-action="start" data-game-mode="sound">
+            <span class="game-mode-icon" aria-hidden="true">🔊</span>
+            <strong>${copy.gameSoundTitle}</strong>
+            <span>${copy.gameSoundText}</span>
+          </button>
+          <button class="game-mode-button game-mode-count" type="button" data-game-action="start" data-game-mode="count">
+            <span class="game-mode-icon" aria-hidden="true">🔢</span>
+            <strong>${copy.gameCountTitle}</strong>
+            <span>${copy.gameCountText}</span>
+          </button>
         </div>
-        <button class="game-primary-button" type="button" data-game-action="start">
-          <span aria-hidden="true">▶</span>
-          ${copy.startGame}
-        </button>
         <span class="game-best">${fillCopy(copy.gameBest, { score: gameState.best })}</span>
       </div>
     </div>`;
@@ -1335,6 +1550,9 @@ function gameQuestionAudio(question) {
   if (question.type === "listen") {
     return voiceClipPath("animal", question.animal.id);
   }
+  if (question.type === "count") {
+    return voiceClipPath("prompt", "count");
+  }
   return "";
 }
 
@@ -1361,7 +1579,7 @@ function gameVisualMarkup(question) {
     const columns = Math.min(3, Math.ceil(Math.sqrt(question.count)));
     const photo = ANIMAL_MEDIA.photos[question.animal.id];
     return `
-      <div class="count-game-scene" style="--count-columns:${columns}">
+      <div class="count-game-scene" data-count="${question.count}" style="--count-columns:${columns}">
         ${Array.from(
           { length: question.count },
           () => `<img class="count-game-photo" src="${photo}" alt="" draggable="false" />`,
@@ -1468,10 +1686,12 @@ function renderGameQuestion() {
   playQuestionAudio();
 }
 
-function startGame() {
+function startGame(mode = "sound") {
   resetGameState();
+  gameState.gameMode = mode === "count" ? "count" : "sound";
   gameState.active = true;
-  gameState.questions = buildGameQuestions();
+  gameState.questions =
+    gameState.gameMode === "count" ? buildCountGameQuestions() : buildGameQuestions();
   gameState.index = 0;
   gameState.current = gameState.questions[0];
   renderGameQuestion();
@@ -1532,7 +1752,8 @@ function answerGame(selectedButton) {
     updateGameStatus();
 
     const answerAudio = gameFeedbackAudio(question);
-    const sound = ANIMAL_MEDIA.sounds[question.animal.id]?.file;
+    const sound =
+      question.type === "count" ? "" : ANIMAL_MEDIA.sounds[question.animal.id]?.file;
     const playback = ANIMAL_MEDIA.playback?.[question.animal.id]?.[state.language];
     playSources(
       playback ? [playback] : [answerAudio.source, sound || ""],
@@ -1601,7 +1822,7 @@ function finishGame() {
         <div><strong>${gameState.score}</strong><span>${copy.gameResultScore}</span></div>
         <div><strong>${gameState.best}</strong><span>${copy.gameResultBest}</span></div>
       </div>
-      <button class="game-primary-button" type="button" data-game-action="start">
+      <button class="game-primary-button" type="button" data-game-action="start" data-game-mode="${gameState.gameMode}">
         <span aria-hidden="true">↻</span>
         ${copy.playAgain}
       </button>
@@ -1621,7 +1842,9 @@ function renderGame() {
 gameBoard.addEventListener("click", (event) => {
   const actionButton = event.target.closest("[data-game-action]");
   if (actionButton) {
-    if (actionButton.dataset.gameAction === "start") startGame();
+    if (actionButton.dataset.gameAction === "start") {
+      startGame(actionButton.dataset.gameMode || "sound");
+    }
     if (actionButton.dataset.gameAction === "replay-audio") {
       actionButton.classList.remove("is-ringing");
       void actionButton.offsetWidth;
@@ -1644,7 +1867,10 @@ document.querySelectorAll(".language-button").forEach((button) => {
 
 grid.addEventListener("click", (event) => {
   const card = event.target.closest(".learning-card");
-  if (card) teachCard(card);
+  if (card) {
+    if (autoReadActive) stopAutoRead(true);
+    teachCard(card);
+  }
 });
 
 grid.addEventListener(
@@ -1659,6 +1885,7 @@ grid.addEventListener(
 
 document.querySelectorAll(".filter-chip").forEach((button) => {
   button.addEventListener("click", () => {
+    stopAutoRead();
     stopSpeaking();
     state.category = button.dataset.category;
     document.querySelectorAll(".filter-chip").forEach((chip) => {
@@ -1671,6 +1898,7 @@ document.querySelectorAll(".filter-chip").forEach((button) => {
 });
 
 animalSearch.addEventListener("input", () => {
+  stopAutoRead();
   stopSpeaking();
   state.search = animalSearch.value;
   renderAnimals();
@@ -1682,6 +1910,7 @@ randomAnimalButton.addEventListener("click", () => {
   const animal = visible[Math.floor(Math.random() * visible.length)];
   const card = grid.querySelector(`[data-id="${animal.id}"]`);
   if (!card) return;
+  stopAutoRead();
   stopSpeaking();
   card.scrollIntoView({ behavior: "smooth", block: "center" });
   card.focus({ preventScroll: true });
@@ -1695,7 +1924,12 @@ document.querySelector("#clear-search").addEventListener("click", () => {
   animalSearch.focus();
 });
 
-document.querySelector("#toast-close").addEventListener("click", stopSpeaking);
+document.querySelector("#toast-close").addEventListener("click", () => {
+  stopAutoRead();
+  stopSpeaking();
+});
+
+autoReadButton.addEventListener("click", toggleAutoRead);
 
 document.querySelector(".brand").addEventListener("click", (event) => {
   event.preventDefault();

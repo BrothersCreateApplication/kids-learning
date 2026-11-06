@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta
       name="description"
-      content="Bé Học Vui - Học chữ cái, số đếm và hơn 80 con vật bằng tiếng Việt và tiếng Anh."
+      content="Bé Học Vui - Học chữ cái, số đếm, màu sắc, hình dạng, con vật và xe cộ bằng tiếng Việt và tiếng Anh."
     />
     <meta name="theme-color" content="#fffaf0" />
     <meta name="application-name" content="Bé Học Vui" />
@@ -24,7 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=13" />
+    <link rel="stylesheet" href="styles.css?v=14" />
   </head>
   <body>
     <div class="page-decor" aria-hidden="true">
@@ -63,6 +63,10 @@
           <button class="nav-tab" type="button" data-mode="vehicles" aria-pressed="false">
             <span class="nav-icon nav-icon-vehicle" aria-hidden="true">🚗</span>
             <span data-i18n="navVehicles">Xe cộ</span>
+          </button>
+          <button class="nav-tab" type="button" data-mode="explore" aria-pressed="false">
+            <span class="nav-icon nav-icon-explore" aria-hidden="true">🎨</span>
+            <span data-i18n="navExplore">Khám phá</span>
           </button>
           <button class="nav-tab" type="button" data-mode="games" aria-pressed="false">
             <span class="nav-icon nav-icon-game" aria-hidden="true">★</span>
@@ -164,6 +168,10 @@
               <span aria-hidden="true">✨</span>
               <span data-i18n="letterCount">26 chữ cái</span>
             </span>
+            <button class="auto-read-button" id="auto-read" type="button" aria-pressed="false">
+              <span aria-hidden="true">▶</span>
+              <span data-i18n="autoRead">Tự đọc</span>
+            </button>
           </div>
 
           <div class="animal-actions" id="animal-actions" hidden>
@@ -281,6 +289,6 @@
 
     <script src="assets/animal-media.js?v=21"></script>
     <script src="assets/vehicle-media.js?v=3"></script>
-    <script src="app.js?v=24"></script>
+    <script src="app.js?v=25"></script>
   </body>
 </html>

@@ -938,6 +938,141 @@
       "en": "dump truck"
     }
   ],
+  "EXPLORE_ITEMS": [
+    {
+      "id": "red",
+      "kind": "color",
+      "vi": "màu đỏ",
+      "en": "red",
+      "color": "#e95555"
+    },
+    {
+      "id": "orange",
+      "kind": "color",
+      "vi": "màu cam",
+      "en": "orange",
+      "color": "#f39a3d"
+    },
+    {
+      "id": "yellow",
+      "kind": "color",
+      "vi": "màu vàng",
+      "en": "yellow",
+      "color": "#f5ce45"
+    },
+    {
+      "id": "green",
+      "kind": "color",
+      "vi": "màu xanh lá",
+      "en": "green",
+      "color": "#67b97a"
+    },
+    {
+      "id": "blue",
+      "kind": "color",
+      "vi": "màu xanh dương",
+      "en": "blue",
+      "color": "#579bdc"
+    },
+    {
+      "id": "purple",
+      "kind": "color",
+      "vi": "màu tím",
+      "en": "purple",
+      "color": "#9a78d1"
+    },
+    {
+      "id": "pink",
+      "kind": "color",
+      "vi": "màu hồng",
+      "en": "pink",
+      "color": "#ec8fae"
+    },
+    {
+      "id": "brown",
+      "kind": "color",
+      "vi": "màu nâu",
+      "en": "brown",
+      "color": "#9a684a"
+    },
+    {
+      "id": "black",
+      "kind": "color",
+      "vi": "màu đen",
+      "en": "black",
+      "color": "#38404a"
+    },
+    {
+      "id": "white",
+      "kind": "color",
+      "vi": "màu trắng",
+      "en": "white",
+      "color": "#fffdf7"
+    },
+    {
+      "id": "gray",
+      "kind": "color",
+      "vi": "màu xám",
+      "en": "gray",
+      "color": "#9aa3aa"
+    },
+    {
+      "id": "circle",
+      "kind": "shape",
+      "vi": "hình tròn",
+      "en": "circle",
+      "shape": "circle"
+    },
+    {
+      "id": "square",
+      "kind": "shape",
+      "vi": "hình vuông",
+      "en": "square",
+      "shape": "square"
+    },
+    {
+      "id": "triangle",
+      "kind": "shape",
+      "vi": "hình tam giác",
+      "en": "triangle",
+      "shape": "triangle"
+    },
+    {
+      "id": "rectangle",
+      "kind": "shape",
+      "vi": "hình chữ nhật",
+      "en": "rectangle",
+      "shape": "rectangle"
+    },
+    {
+      "id": "star",
+      "kind": "shape",
+      "vi": "hình ngôi sao",
+      "en": "star",
+      "shape": "star"
+    },
+    {
+      "id": "heart",
+      "kind": "shape",
+      "vi": "hình trái tim",
+      "en": "heart",
+      "shape": "heart"
+    },
+    {
+      "id": "oval",
+      "kind": "shape",
+      "vi": "hình bầu dục",
+      "en": "oval",
+      "shape": "oval"
+    },
+    {
+      "id": "diamond",
+      "kind": "shape",
+      "vi": "hình thoi",
+      "en": "diamond",
+      "shape": "diamond"
+    }
+  ],
   "VI_LETTER_NAMES": {
     "A": "A",
     "B": "Bờ",

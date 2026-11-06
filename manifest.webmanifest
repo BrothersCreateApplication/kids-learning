@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Bé Học Vui - Chữ cái, số & con vật",
+  "name": "Bé Học Vui - Học cùng bé",
   "short_name": "Bé Học Vui",
-  "description": "Ứng dụng song ngữ giúp bé học chữ cái, số đếm và khám phá hơn 90 con vật qua hình ảnh, âm thanh và trò chơi.",
+  "description": "Ứng dụng song ngữ giúp bé 1–5 tuổi học chữ cái, số đếm, màu sắc, hình dạng, con vật và xe cộ qua hình ảnh, âm thanh và trò chơi.",
   "lang": "vi",
   "dir": "ltr",
   "start_url": "./",

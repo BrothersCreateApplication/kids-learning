@@ -1,5 +1,15 @@
 [
   {
+    "path": "assets/audio/prompts/count-vi.mp3",
+    "text": "Có bao nhiêu con vật?",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/prompts/count-en.mp3",
+    "text": "How many animals are there?",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "path": "assets/audio/letters/a-vi.mp3",
     "text": "Chữ A.",
     "voice": "vi-VN-HoaiMyNeural"
@@ -1657,6 +1667,196 @@
   {
     "path": "assets/audio/vehicles/dump-truck-en.mp3",
     "text": "Dump truck.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/red-vi.mp3",
+    "text": "Màu đỏ.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/red-en.mp3",
+    "text": "Red.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/orange-vi.mp3",
+    "text": "Màu cam.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/orange-en.mp3",
+    "text": "Orange.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/yellow-vi.mp3",
+    "text": "Màu vàng.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/yellow-en.mp3",
+    "text": "Yellow.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/green-vi.mp3",
+    "text": "Màu xanh lá.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/green-en.mp3",
+    "text": "Green.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/blue-vi.mp3",
+    "text": "Màu xanh dương.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/blue-en.mp3",
+    "text": "Blue.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/purple-vi.mp3",
+    "text": "Màu tím.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/purple-en.mp3",
+    "text": "Purple.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/pink-vi.mp3",
+    "text": "Màu hồng.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/pink-en.mp3",
+    "text": "Pink.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/brown-vi.mp3",
+    "text": "Màu nâu.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/brown-en.mp3",
+    "text": "Brown.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/black-vi.mp3",
+    "text": "Màu đen.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/black-en.mp3",
+    "text": "Black.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/white-vi.mp3",
+    "text": "Màu trắng.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/white-en.mp3",
+    "text": "White.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/gray-vi.mp3",
+    "text": "Màu xám.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/gray-en.mp3",
+    "text": "Gray.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/circle-vi.mp3",
+    "text": "Hình tròn.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/circle-en.mp3",
+    "text": "Circle.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/square-vi.mp3",
+    "text": "Hình vuông.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/square-en.mp3",
+    "text": "Square.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/triangle-vi.mp3",
+    "text": "Hình tam giác.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/triangle-en.mp3",
+    "text": "Triangle.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/rectangle-vi.mp3",
+    "text": "Hình chữ nhật.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/rectangle-en.mp3",
+    "text": "Rectangle.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/star-vi.mp3",
+    "text": "Hình ngôi sao.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/star-en.mp3",
+    "text": "Star.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/heart-vi.mp3",
+    "text": "Hình trái tim.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/heart-en.mp3",
+    "text": "Heart.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/oval-vi.mp3",
+    "text": "Hình bầu dục.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/oval-en.mp3",
+    "text": "Oval.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "path": "assets/audio/explore/diamond-vi.mp3",
+    "text": "Hình thoi.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  {
+    "path": "assets/audio/explore/diamond-en.mp3",
+    "text": "Diamond.",
     "voice": "en-GB-SoniaNeural"
   }
 ]

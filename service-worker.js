@@ -1,4 +1,4 @@
-const CACHE_NAME = "be-hoc-vui-v12";
+const CACHE_NAME = "be-hoc-vui-v13";
 const APP_SHELL = [
   "./",
   "./index.html",

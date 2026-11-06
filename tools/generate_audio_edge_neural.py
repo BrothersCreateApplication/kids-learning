@@ -28,6 +28,10 @@ def clip_group(clip):
         section = "numbers"
     elif "/vehicles/" in clip["path"]:
         section = "vehicles"
+    elif "/explore/" in clip["path"]:
+        section = "explore"
+    elif "/prompts/" in clip["path"]:
+        section = "prompts"
     else:
         section = "animals"
     return language, section
