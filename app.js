@@ -181,7 +181,7 @@ const VEHICLES = [
   { id: "taxi", emoji: "🚕", vi: "xe taxi", en: "taxi" },
   { id: "school-bus", emoji: "🚌", vi: "xe buýt trường học", en: "school bus" },
   { id: "tractor", emoji: "🚜", vi: "máy kéo", en: "tractor" },
-  { id: "excavator", emoji: "🚜", vi: "máy xúc", en: "excavator" },
+  { id: "excavator", emoji: "🚜", vi: "xe múc", en: "excavator" },
   { id: "rocket", emoji: "🚀", vi: "tên lửa", en: "rocket" },
   { id: "submarine", emoji: "🚢", vi: "tàu ngầm", en: "submarine" },
   { id: "tram", emoji: "🚊", vi: "tàu điện", en: "tram" },
@@ -1045,13 +1045,13 @@ function voiceClipPath(type, id) {
     return `assets/audio/letters/${id.toLowerCase()}-${state.language}.mp3?v=9`;
   }
   if (type === "number") {
-    return `assets/audio/numbers/${id}-${state.language}.mp3?v=9`;
+    return `assets/audio/numbers/${id}-${state.language}.mp3?v=10`;
   }
   if (type === "animal") {
     return `assets/audio/animals/${id}-${state.language}.mp3?v=9`;
   }
   if (type === "vehicle") {
-    return `assets/audio/vehicles/${id}-${state.language}.mp3?v=2`;
+    return `assets/audio/vehicles/${id}-${state.language}.mp3?v=3`;
   }
   return "";
 }

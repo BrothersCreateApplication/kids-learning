@@ -17,6 +17,9 @@ const { LETTERS, NUMBER_WORDS, ANIMALS, VEHICLES, VI_LETTER_NAMES, EN_LETTER_NAM
   context.lessonData;
 
 const clips = [];
+const VI_VEHICLE_SPEECH_OVERRIDES = {
+  "container-truck": "Xe công-ten-nơ.",
+};
 
 for (const item of LETTERS) {
   const key = item.letter.toLowerCase();
@@ -61,7 +64,9 @@ for (const animal of ANIMALS) {
 for (const vehicle of VEHICLES) {
   clips.push({
     path: `assets/audio/vehicles/${vehicle.id}-vi.mp3`,
-    text: `${vehicle.vi.charAt(0).toUpperCase()}${vehicle.vi.slice(1)}.`,
+    text:
+      VI_VEHICLE_SPEECH_OVERRIDES[vehicle.id] ??
+      `${vehicle.vi.charAt(0).toUpperCase()}${vehicle.vi.slice(1)}.`,
     voice: "vi-VN-HoaiMyNeural",
   });
   clips.push({

@@ -1571,7 +1571,7 @@
   },
   {
     "path": "assets/audio/vehicles/excavator-vi.mp3",
-    "text": "Máy xúc.",
+    "text": "Xe múc.",
     "voice": "vi-VN-HoaiMyNeural"
   },
   {
@@ -1641,7 +1641,7 @@
   },
   {
     "path": "assets/audio/vehicles/container-truck-vi.mp3",
-    "text": "Xe container.",
+    "text": "Xe công-ten-nơ.",
     "voice": "vi-VN-HoaiMyNeural"
   },
   {
